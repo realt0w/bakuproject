@@ -1,0 +1,226 @@
+/* Common styles for all screen sizes */
+body {
+    background-color: #1A1B1E;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #25262b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.Bakugan-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+
+.Bakugan {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.Bakugan:hover {
+    transform: scale(1.05);
+}
+
+.Bakugan img {
+    max-width: 100%;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+#popup-image {
+    max-width: 80%;
+}
+
+#popup-text {
+    background: #25262b;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#close-popup {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #25262b;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Add this CSS for the homepage boxes */
+.homepage-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.box {
+    background-color: #25262b;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: 0.0625rem solid #373A40;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Optional: Add additional CSS for the text under the images */
+.box p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Clear styling for anchor tags inside boxes */
+.box a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 5px; /* Reduce header padding for smaller screens */
+    }
+
+    .logo img {
+        width: 60px; /* Adjust logo size for smaller screens */
+        height: 60px;
+    }
+
+    nav {
+        flex-direction: column; /* Display navigation links vertically on mobile */
+    }
+
+    nav li {
+        margin-right: 0; /* Remove margin between navigation links */
+        margin-bottom: 10px;
+    }
+
+    select {
+        margin-bottom: 10px; /* Add some spacing between select and cards */
+    }
+
+    .card {
+        width: 100%; /* Make cards full-width on mobile */
+    }
+
+    .Bakugan {
+        width: 100%; /* Make cards full-width on mobile */
+    }
+}

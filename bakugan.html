@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bakugan Collection</title>
+    <meta name="description" content="Explore a collection of Bakugan cards, including Normal Gate Cards, Special Ability Cards, Command Gate Cards, and more. Find the perfect cards for your Bakugan battles.">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" width="100" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./cards.html">Cards</a></li>
+                <li><a href="">Bakugan</a></li>
+                <li><a target="_blank" href="https://discord.gg/bakuproject">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Bakugan Collection</h1>
+
+    <label for="Bakugan-type">Filter by Type:</label>
+    <select id="Bakugan-type">
+        <option value="all">All</option>
+        <option value="Aquos">Aquos Attribute</option>
+        <option value="Darkus">Darkus Attribute</option>
+        <option value="Haos">Haos Attribute</option>
+        <option value="Pyrus">Pyrus Attribute</option>
+        <option value="Subterra">Subterra Attribute</option>
+        <option value="Ventus">Ventus Attribute</option>
+        <!-- Add more type options as needed -->
+    </select>
+
+    <div class="Bakugan-list" id="Bakugan-list">
+        <!-- Bakugans will be dynamically generated here by JavaScript -->
+    </div>
+
+    <div id="Bakugan-popup" class="popup">
+        <img id="popup-image" src="" alt="">
+        <div id="popup-text">
+            <h2>Bakugan Title</h2>
+            <p>Bakugan Description</p>
+        </div>
+        <button id="close-popup">Close</button>
+    </div>
+
+    <footer>
+        <p>Made with &lt;3 by a Tom. This website is in no way associated with Baku Project.</p>
+    </footer>
+
+    <script src="script-bakugan.js"></script>
+</body>
+</html>
