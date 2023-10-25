@@ -29,10 +29,11 @@ Under this license, you are free to:
 
 The only requirement is that you must provide appropriate attribution by clearly mentioning and linking to the original authors of the project. Any derivative works must also be licensed under CC BY 4.0 and attribute the original source.
 
-For more details, see the [LICENSE.md](LICENSE.md) file.
 
 ## Access the Website
 
 Visit the Baku Project Website: [http://bakuproject.wiki/](http://bakuproject.wiki/)
 
 Thank you for being a part of the Baku Project community. Enjoy your adventure in the Bakugan world!
+
+This website is in no way associated with Baku Project.
