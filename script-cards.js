@@ -2,14 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const cardList = document.getElementById("card-list");
     const cardPopup = document.getElementById("card-popup");
     const popupImage = document.getElementById("popup-image");
+    const popupTypeImage = document.getElementById("popup-type-image");
     const popupText = document.getElementById("popup-text");
     const closePopup = document.getElementById("close-popup");
     const cardType = document.getElementById("card-type");
+    const cardAttribute = document.getElementById("card-attribute");
 
     const cardData = [
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
+            attribute: "haos",
             title: "Haos - 30",
             description: "Haos bakugan present on the gate card gain +30 G's.",
             price: "??? HSP"
@@ -17,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
+            attribute: "haos",
             title: "Haos - 50",
             description: "Haos bakugan present on the gate card gain +50 G's.",
             price: "??? HSP"
@@ -24,8 +28,129 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
+            attribute: "haos",
             title: "Haos - 70",
             description: "Haos bakugan present on the gate card gain +70 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "pyrus",
+            title: "Pyrus - 30",
+            description: "Pyrus bakugan present on the gate card gain +30 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "pyrus",
+            title: "Pyrus - 50",
+            description: "Pyrus bakugan present on the gate card gain +50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "pyrus",
+            title: "Pyrus - 70",
+            description: "Pyrus bakugan present on the gate card gain +70 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "ventus",
+            title: "Ventus - 30",
+            description: "Ventus bakugan present on the gate card gain +30 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "ventus",
+            title: "Ventus - 50",
+            description: "Ventus bakugan present on the gate card gain +50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "ventus",
+            title: "Ventus - 70",
+            description: "Ventus bakugan present on the gate card gain +70 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "darkus",
+            title: "Darkus - 30",
+            description: "Darkus bakugan present on the gate card gain +30 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "darkus",
+            title: "Darkus - 50",
+            description: "Darkus bakugan present on the gate card gain +50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "darkus",
+            title: "Darkus - 70",
+            description: "Darkus bakugan present on the gate card gain +70 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "subterra",
+            title: "Subterra - 30",
+            description: "Subterra bakugan present on the gate card gain +30 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "subterra",
+            title: "Subterra - 50",
+            description: "Subterra bakugan present on the gate card gain +50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "subterra",
+            title: "Subterra - 70",
+            description: "Subterra bakugan present on the gate card gain +70 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "aquos",
+            title: "Aquos - 30",
+            description: "Aquos bakugan present on the gate card gain +30 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "aquos",
+            title: "Aquos - 50",
+            description: "Aquos bakugan present on the gate card gain +50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NGC",
+            image: "./images/cards/NormallGateCards.png",
+            attribute: "aquos",
+            title: "Aquos - 70",
+            description: "Aquos bakugan present on the gate card gain +70 G's.",
             price: "??? HSP"
         },
         {
@@ -59,6 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
+            attribute: "pyrus",
             title: "Fire Wall",
             description: "An opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
@@ -94,37 +220,72 @@ document.addEventListener("DOMContentLoaded", function () {
         // Add more card data as needed
     ];
 
-    // Function to create card elements
-    function createCard(cardInfo) {
-        const card = document.createElement("div");
-        card.classList.add("card");
-        card.setAttribute("data-type", cardInfo.type);
+// Function to create card elements
+function createCard(cardInfo) {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.setAttribute("data-type", cardInfo.type);
+    card.setAttribute("data-attribute", cardInfo.attribute);
 
-        const cardImage = document.createElement("img");
-        cardImage.src = cardInfo.image;
-        cardImage.alt = cardInfo.title;
+    const cardImage = document.createElement("img");
+    cardImage.src = cardInfo.image;
+    cardImage.alt = cardInfo.title;
 
-        const cardTitle = document.createElement("h2");
-        cardTitle.textContent = cardInfo.title;
+    const cardInfoContainer = document.createElement("div");
+    cardInfoContainer.classList.add("card-info-container");
 
-        const cardDescription = document.createElement("p");
-        cardDescription.textContent = cardInfo.description;
+    const additionalImage = document.createElement("img");
 
-        const cardPrice = document.createElement("p");
-        cardPrice.textContent = cardInfo.price;
-
-        card.appendChild(cardImage);
-        card.appendChild(cardTitle);
-        card.appendChild(cardDescription);
-        card.appendChild(cardPrice);
-
-        cardList.appendChild(card);
+    // Set the second image source based on the card's element
+    switch (cardInfo.attribute) {
+        case "aquos":
+            additionalImage.src = "./images/aquos.svg";
+            break;
+        case "pyrus":
+            additionalImage.src = "./images/pyrus.svg";
+            break;
+        case "haos":
+            additionalImage.src = "./images/haos.svg";
+            break;
+        case "darkus":
+            additionalImage.src = "./images/darkus.svg";
+            break;
+        case "ventus":
+            additionalImage.src = "./images/ventus.svg";
+            break;
+        case "subterra":
+            additionalImage.src = "./images/subterra.svg";
+            break;
+        default:
+            additionalImage.src = "./images/default.svg";
     }
 
-    // Populate card list with data
-    cardData.forEach(cardInfo => {
-        createCard(cardInfo);
-    });
+    const cardTitle = document.createElement("h2");
+    cardTitle.textContent = cardInfo.title;
+
+    const cardDescription = document.createElement("p");
+    cardDescription.textContent = cardInfo.description;
+
+    const cardPrice = document.createElement("p");
+    cardPrice.textContent = cardInfo.price;
+
+    cardInfoContainer.appendChild(additionalImage);
+    cardInfoContainer.appendChild(cardTitle);
+
+    card.appendChild(cardImage);
+    card.appendChild(cardInfoContainer);
+    card.appendChild(cardDescription);
+    card.appendChild(cardPrice);
+
+    cardList.appendChild(card);
+}
+
+// Populate card list with data
+cardData.forEach(cardInfo => {
+    createCard(cardInfo);
+});
+
+
 
     cardList.querySelectorAll(".card").forEach(card => {
         card.addEventListener("click", () => {
@@ -138,6 +299,32 @@ document.addEventListener("DOMContentLoaded", function () {
             popupText.querySelector("h2").textContent = cardTitle.textContent;
             popupText.querySelector("p").textContent = cardDescription.textContent;
             popupText.querySelector("p").textContent = cardPrice.textContent;
+    
+            // Get the Bakugan type for the image source
+            const cardAttribute = card.getAttribute("data-attribute");
+            switch (cardAttribute) {
+                case "aquos":
+                    popupTypeImage.src = "./images/aquos.svg";
+                    break;
+                case "pyrus":
+                    popupTypeImage.src = "./images/pyrus.svg";
+                    break;
+                case "haos":
+                    popupTypeImage.src = "./images/haos.svg";
+                    break;
+                case "darkus":
+                    popupTypeImage.src = "./images/darkus.svg";
+                    break;
+                case "ventus":
+                    popupTypeImage.src = "./images/ventus.svg";
+                    break;
+                case "subterra":
+                    popupTypeImage.src = "./images/subterra.svg";
+                    break;
+                default:
+                    // Set a default image if needed
+                    popupTypeImage.src = "./images/default.svg";
+            }
 
             cardPopup.style.display = "flex";
         });

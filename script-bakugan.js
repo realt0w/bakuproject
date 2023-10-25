@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const BakuganList = document.getElementById("Bakugan-list");
     const BakuganPopup = document.getElementById("Bakugan-popup");
     const popupImage = document.getElementById("popup-image");
+    const popupTypeImage = document.getElementById("popup-type-image");
     const popupText = document.getElementById("popup-text");
     const closePopup = document.getElementById("close-popup");
     const BakuganType = document.getElementById("Bakugan-type");
@@ -76,6 +77,35 @@ document.addEventListener("DOMContentLoaded", function () {
         BakuganImage.src = BakuganInfo.image;
         BakuganImage.alt = BakuganInfo.title;
 
+        const BakuganInfoContainer = document.createElement("div");
+        BakuganInfoContainer.classList.add("Bakugan-info-container");
+    
+        const additionalImage = document.createElement("img");
+    
+        // Set the second image source based on the Bakugan's element
+        switch (BakuganInfo.type) {
+            case "Aquos":
+                additionalImage.src = "./images/aquos.svg";
+                break;
+            case "Pyrus":
+                additionalImage.src = "./images/pyrus.svg";
+                break;
+            case "Haos":
+                additionalImage.src = "./images/haos.svg";
+                break;
+            case "Darkus":
+                additionalImage.src = "./images/darkus.svg";
+                break;
+            case "Ventus":
+                additionalImage.src = "./images/ventus.svg";
+                break;
+            case "Subterra":
+                additionalImage.src = "./images/subterra.svg";
+                break;
+            default:
+                additionalImage.src = "./images/default.svg";
+        }
+
         const BakuganTitle = document.createElement("h2");
         BakuganTitle.textContent = BakuganInfo.title;
 
@@ -88,8 +118,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const BakuganPrice = document.createElement("p");
         BakuganPrice.textContent = BakuganInfo.price;
 
+        BakuganInfoContainer.appendChild(additionalImage);
+        BakuganInfoContainer.appendChild(BakuganTitle);
+
         Bakugan.appendChild(BakuganImage);
-        Bakugan.appendChild(BakuganTitle);
+        Bakugan.appendChild(BakuganInfoContainer);
         Bakugan.appendChild(BakuganDescription);
         Bakugan.appendChild(BakuganPower);
         Bakugan.appendChild(BakuganPrice);
@@ -109,17 +142,44 @@ document.addEventListener("DOMContentLoaded", function () {
             const BakuganDescription = Bakugan.querySelector("p");
             const BakuganPrice = Bakugan.querySelector("p");
             const BakuganPower = Bakugan.querySelector("p");
-
+    
             popupImage.src = BakuganImage.src;
             popupImage.alt = BakuganImage.alt;
             popupText.querySelector("h2").textContent = BakuganTitle.textContent;
             popupText.querySelector("p").textContent = BakuganDescription.textContent;
             popupText.querySelector("p").textContent = BakuganPower.textContent;
             popupText.querySelector("p").textContent = BakuganPrice.textContent;
-
+    
+            // Get the Bakugan type for the image source
+            const BakuganType = Bakugan.getAttribute("data-type");
+            switch (BakuganType) {
+                case "Aquos":
+                    popupTypeImage.src = "./images/aquos.svg";
+                    break;
+                case "Pyrus":
+                    popupTypeImage.src = "./images/pyrus.svg";
+                    break;
+                case "Haos":
+                    popupTypeImage.src = "./images/haos.svg";
+                    break;
+                case "Darkus":
+                    popupTypeImage.src = "./images/darkus.svg";
+                    break;
+                case "Ventus":
+                    popupTypeImage.src = "./images/ventus.svg";
+                    break;
+                case "Subterra":
+                    popupTypeImage.src = "./images/subterra.svg";
+                    break;
+                default:
+                    // Set a default image if needed
+                    popupTypeImage.src = "./images/default.svg";
+            }
+    
             BakuganPopup.style.display = "flex";
         });
     });
+    
 
     closePopup.addEventListener("click", () => {
         BakuganPopup.style.display = "none";

@@ -116,6 +116,28 @@ select:hover {
     height: 180px;
 }
 
+.card-info-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-info-container img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.Bakugan-info-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.Bakugan-info-container img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
 .Bakugan-list {
     display: flex;
     flex-wrap: wrap;
