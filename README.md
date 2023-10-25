@@ -1,22 +1,18 @@
 # Baku Project Website
 
-Welcome to the Baku Project Website, a fan-made collection of Bakugan cards and Bakugan creatures. This website is designed to provide a comprehensive resource for Bakugan enthusiasts, allowing them to explore and collect various cards and Bakugan creatures.
-
-## About Baku Project
-
-Baku Project is a fan game designed to celebrate the world of Bakugan. We've created a diverse collection of cards and Bakugan characters for you to explore and enjoy. Whether you're a seasoned Bakugan brawler or new to this exciting world, Baku Project has something for everyone.
+Welcome to the Baku Project website. Our goal is to compile a complete collection of cards and Bakugan from the Baku Project.
 
 ## Features
 
 - **Card Collection:** Explore an extensive collection of Bakugan cards, including Normal Gate Cards, Special Ability Cards, Command Gate Cards, Character Gate Cards, and more.
 
-- **Bakugan Characters:** Discover and collect various Bakugan creatures from different factions and attributes.
+- **Bakugan Characters:** Discover and collect various Bakugan creatures from different attributes.
 
 - **Interactive Experience:** Dive into the Bakugan universe with an immersive and interactive website experience.
 
 ## Contributing
 
-We welcome contributions from the Bakugan community. Feel free to contribute by adding new cards, Bakugan characters, or improving the website's features. Please follow our guidelines for contributing and ensure that you attribute your work.
+We welcome contributions from the Bakugan community. Feel free to contribute by adding new cards, Bakugan, or improving the website's features. Please follow our guidelines for contributing and ensure that you attribute your work.
 
 ## License
 
