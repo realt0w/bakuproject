@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Baku Project - Collection</title>
+    <meta name="description" content="Explore a collection of Bakugan cards, including Normal Gate Cards, Special Ability Cards, Command Gate Cards, and more. Find the perfect cards for your Bakugan battles.">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favico.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" width="100" height="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./cards.html">Cards</a></li>
+                <li><a href="./bakugan.html">Bakugan</a></li>
+                <li><a href="https://discord.gg/bakuproject">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>You are lost, wait we will bring you back to a safe place<span id="dots"></span></h1>
+
+    
+    <div id="countdown">
+        <p>Redirecting in <span id="timer">10</span> seconds.</p>
+    </div>
+    
+    <footer>
+        <p>Made with &lt;3 by Tom. This website is in no way associated with Baku Project.</p>
+    </footer>
+    
+    <script>
+        // JavaScript countdown timer with dynamic dots
+        let countdown = 10;
+        const timerElement = document.getElementById("timer");
+        
+        const updateTimer = () => {
+            countdown--;
+            timerElement.textContent = countdown;
+    
+            const dotsElement = document.getElementById("dots");
+            const currentDots = dotsElement.textContent;
+            
+            if (currentDots.length >= 3) {
+                dotsElement.textContent = "";
+            } else {
+                dotsElement.textContent += ".";
+            }
+    
+            if (countdown <= 0) {
+                window.location.href = "/"; // Redirect to the home page
+            }
+        };
+    
+        // Update the timer and dots every second
+        const timerInterval = setInterval(updateTimer, 1000);
+    
+        // Clear the interval when the user manually navigates away from the page
+        window.onbeforeunload = () => {
+            clearInterval(timerInterval);
+        };
+    </script>
+    
+</body>
+</html>
