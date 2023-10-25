@@ -32,7 +32,7 @@ The only requirement is that you must provide appropriate attribution by clearly
 
 ## Access the Website
 
-Visit the Baku Project Website: [http://bakuproject.wiki/](http://bakuproject.wiki/)
+Visit the Baku Project Website: [https://bakuproject.wiki/](https://bakuproject.wiki/)
 
 Thank you for being a part of the Baku Project community. Enjoy your adventure in the Bakugan world!
 
