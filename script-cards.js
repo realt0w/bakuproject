@@ -49,6 +49,27 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "TBD",
             price: "??? HSP"
         },
+        {
+            type: "SAC",
+            image: "./images/cards/Anthemusa.png",
+            title: "Anthemusa",
+            description: "All weaker adjacent Bakugan are moved to Sirenoid's gate card and immediately defeated.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Fire Wall",
+            description: "An opponent's Bakugan loses -50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Diagonal Link - Pyrus & Darkus",
+            description: "If there is a Pyrus/Darkus Bakugan on the field, your opposite Attributed Bakugan gains +100 G's. If the other Bakugan was an ally, it gains +100 G's as well.",
+            price: "??? HSP"
+        },
         // Add more card data as needed
     ];
 
