@@ -47,6 +47,22 @@ document.addEventListener("DOMContentLoaded", function () {
             power: "370 G",
             price: "7.500 HSP",
         },
+        {
+            type: "Pyrus",
+            image: "./images/Bakugan/PyrusRobotalion.png",
+            title: "Robotallion",
+            description: "Some Bakugan are driven by anger or a lust for power, but not Robotallion. It has a strong sense of justice and will do anything to serve and protect its friends. If anything gets in its way, Robotallion will slice through it with the giant blades that extend from its body.",
+            power: "290 G",
+            price: "3.500 HSP",
+        },
+        {
+            type: "Pyrus",
+            image: "./images/Bakugan/PyrusDragonoid.png",
+            title: "Dragonoid",
+            description: "Even though Dragonoid gets more and more powerful with each evolved form, his original form is one to be reckoned with. He can raise so much fiery energy during a battle that everything around him melts. His unusually high intelligence allows him to strategize on the field. Dragonoid's main weakness is that he's not extremely agile, but what he loses in mobility he makes up for with his powerful strikes.",
+            power: "340 G",
+            price: "8.000 HSP",
+        },
         // Add more Bakugan data as needed
     ];
 
@@ -120,4 +136,22 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+    const searchBar = document.getElementById("search-bar");
+
+searchBar.addEventListener("input", function () {
+    const searchQuery = searchBar.value.toLowerCase();
+
+    BakuganList.querySelectorAll(".Bakugan").forEach(Bakugan => {
+        const BakuganTitle = Bakugan.querySelector("h2");
+
+        const titleText = BakuganTitle.textContent.toLowerCase();
+
+        if (titleText.includes(searchQuery)) {
+            Bakugan.style.display = "block";
+        } else {
+            Bakugan.style.display = "none";
+        }
+    });
+});
+
 });

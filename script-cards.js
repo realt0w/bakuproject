@@ -116,4 +116,22 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+    
+    const searchBar = document.getElementById("search-bar");
+
+searchBar.addEventListener("input", function () {
+    const searchQuery = searchBar.value.toLowerCase();
+
+    cardList.querySelectorAll(".card").forEach(card => {
+        const cardTitle = card.querySelector("h2");
+
+        const titleText = cardTitle.textContent.toLowerCase();
+
+        if (titleText.includes(searchQuery)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
 });
