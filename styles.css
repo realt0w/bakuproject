@@ -154,7 +154,7 @@ select:hover {
 }
 
 #popup-image {
-    max-width: 80%;
+    height: 40vh;
 }
 
 #popup-text {

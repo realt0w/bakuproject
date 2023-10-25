@@ -39,14 +39,14 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Leap Sting",
-            description: "TBD",
+            description: "???",
             price: "??? HSP"
         },
         {
             type: "CHGC",
             image: "./images/cards/ReaperGateCards.png",
             title: "Reaper",
-            description: "TBD",
+            description: "???",
             price: "??? HSP"
         },
         {
@@ -68,6 +68,27 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Diagonal Link - Pyrus & Darkus",
             description: "If there is a Pyrus/Darkus Bakugan on the field, your opposite Attributed Bakugan gains +100 G's. If the other Bakugan was an ally, it gains +100 G's as well.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/GateBuilding.png",
+            title: "Gate Building",
+            description: "Set a Gate Card down during battle.",
+            price: "??? HSP"
+        },
+        {
+            type: "CGC",
+            image: "./images/cards/CheeringBattle.png",
+            title: "Cheering Battle",
+            description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
+            price: "??? HSP"
+        },
+        {
+            type: "CHGC",
+            image: "./images/cards/SiegeGateCards.png",
+            title: "Siege",
+            description: "Siege's power level is doubled.",
             price: "??? HSP"
         },
         // Add more card data as needed
