@@ -5,6 +5,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center; 
+}
+
+.centered-content {
+    margin: 0 auto;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
 }
 
 header {
@@ -49,15 +59,32 @@ label {
 }
 
 select {
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the select dropdown arrow */
+select::after {
+    content: "\25BC"; /* Unicode down arrow character */
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+/* Style select when it's hovered */
+select:hover {
+    border-color: #333;
 }
 
 .card-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10%;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .card {
@@ -80,8 +107,8 @@ select {
 .Bakugan-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10%;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .Bakugan {
@@ -111,6 +138,7 @@ select {
     background: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Vertical stacking of elements */
 }
 
 #popup-image {
@@ -123,13 +151,30 @@ select {
     border-radius: 5px;
 }
 
-#close-popup {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: #333;
-    color: white;
-    border: none;
+.popup-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.popup-close-button {
     cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 100px;
+    z-index: 999; /* Ensures it's on top of other elements */
+    color: #911f1f; /* Customize the color */
+}
+
+.popup-close-button:hover {
+    color: red; /* Customize the hover color */
+}
+
+#popup-image-container {
+    margin: 20px; /* Add some spacing */
 }
 
 footer {
@@ -141,13 +186,14 @@ footer {
     bottom: 0;
 }
 
-/* Add this CSS for the homepage boxes */
+/* This CSS for the homepage boxes */
 .homepage-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 20px;
+    padding-bottom: 50px;
 }
 
 .box {
