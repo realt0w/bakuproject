@@ -1,3 +1,10 @@
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const BakuganList = document.getElementById("Bakugan-list");
     const BakuganPopup = document.getElementById("Bakugan-popup");
@@ -66,6 +73,8 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         // Add more Bakugan data as needed
     ];
+    
+    shuffleArray(BakuganData);
 
     // Function to create Bakugan elements
     function createBakugan(BakuganInfo) {

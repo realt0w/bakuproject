@@ -1,3 +1,10 @@
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const cardList = document.getElementById("card-list");
     const cardPopup = document.getElementById("card-popup");
@@ -217,8 +224,34 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Siege's power level is doubled.",
             price: "??? HSP"
         },
+        {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "pyrus",
+            title: "Correlation - Pyrus & Subterra",
+            description: "If there is a Subterra Bakugan on the field, your Pyrus Bakugan gains +100 G's. If the other Bakugan was an ally, both Bakugan gain +50 G's instead.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "subterra",
+            title: "Earth Power",
+            description: "Increase your Subterra Bakugan's power level by +50 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "SAC",
+            image: "./images/cards/Anthemusa.png",
+            attribute: "subterra",
+            title: "Mega Impact",
+            description: "Gorem gains +50 G's, and an opponent's Bakugan loses -100 G's.",
+            price: "??? HSP"
+        },
         // Add more card data as needed
     ];
+    
+    shuffleArray(cardData);
 
 // Function to create card elements
 function createCard(cardInfo) {
