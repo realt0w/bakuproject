@@ -760,8 +760,8 @@ function createCard(cardInfo) {
     const additionalImage = document.createElement("img");
 
     // Set the second image source based on the card's element
-    switch (cardInfo.attribute) {
-        case "aquos":
+switch ((cardInfo.attribute?cardInfo.attribute:'').toLowerCase()) {
+	case "aquos":
             additionalImage.src = "./images/aquos.svg";
             break;
         case "pyrus":
@@ -825,7 +825,7 @@ cardData.forEach(cardInfo => {
     
             // Get the Bakugan type for the image source
             const cardAttribute = card.getAttribute("data-attribute");
-            switch (lower(cardAttribute)) {
+            switch ((cardAttribute?cardAttribute:'').toLowerCase()) {
                 case "aquos":
                     popupTypeImage.src = "./images/aquos.svg";
                     break;
