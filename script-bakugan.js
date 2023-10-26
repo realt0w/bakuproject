@@ -193,13 +193,13 @@ document.addEventListener("DOMContentLoaded", function () {
     closePopup.addEventListener("click", () => {
         BakuganPopup.style.display = "none";
     });
-	/*
-    closePopup.addEventListener("keypress", function(e) => {
-		if(e.key == "Escape"){	
-        cardPopup.style.display = "none";
-		}
-    });
-    */
+	
+window.onkeydown = function(e) {
+  var keyCode = e.key || e.keyIdentifier || e.keyCode;
+  if (keyCode == 27 || keyCode == 'Escape') {
+    cardPopup.style.display = "none";
+  }
+}
 
     BakuganType.addEventListener("change", () => {
         const selectedType = BakuganType.value;
