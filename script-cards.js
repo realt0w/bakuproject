@@ -364,7 +364,8 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             type: "NAC",
             image: "./images/cards/GateBuilding.png",
-            title: "Gate Building",
+	    title: "Gate Building",
+	    attribute: "subterra",
             description: "Set a Gate Card down during battle.",
             price: "??? HSP"
         },
@@ -824,7 +825,7 @@ cardData.forEach(cardInfo => {
     
             // Get the Bakugan type for the image source
             const cardAttribute = card.getAttribute("data-attribute");
-            switch (cardAttribute) {
+            switch (lower(cardAttribute)) {
                 case "aquos":
                     popupTypeImage.src = "./images/aquos.svg";
                     break;
@@ -855,6 +856,14 @@ cardData.forEach(cardInfo => {
     closePopup.addEventListener("click", () => {
         cardPopup.style.display = "none";
     });
+
+	closePopup.addEventListener("keypress", function(e) => {
+		if(e.key == "Escape"){	
+        cardPopup.style.display = "none";
+		}
+    });
+
+    
 
     cardType.addEventListener("change", () => {
         const selectedType = cardType.value;
