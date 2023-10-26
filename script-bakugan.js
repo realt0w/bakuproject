@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
 window.onkeydown = function(e) {
   var keyCode = e.key || e.keyIdentifier || e.keyCode;
   if (keyCode == 27 || keyCode == 'Escape') {
-    cardPopup.style.display = "none";
+    BakuganPopup.style.display = "none";
   }
 }
 
