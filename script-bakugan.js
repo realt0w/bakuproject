@@ -193,6 +193,11 @@ document.addEventListener("DOMContentLoaded", function () {
     closePopup.addEventListener("click", () => {
         BakuganPopup.style.display = "none";
     });
+    closePopup.addEventListener("keypress", function(e) => {
+		if(e.key == "Escape"){	
+        cardPopup.style.display = "none";
+		}
+    });
 
     BakuganType.addEventListener("change", () => {
         const selectedType = BakuganType.value;
