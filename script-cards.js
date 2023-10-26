@@ -857,11 +857,12 @@ cardData.forEach(cardInfo => {
         cardPopup.style.display = "none";
     });
 
-	closePopup.addEventListener("keypress", function(e) => {
-		if(e.key == "Escape"){	
-        cardPopup.style.display = "none";
-		}
-    });
+	window.onkeydown = function(e) {
+  var keyCode = e.key || e.keyIdentifier || e.keyCode;
+  if (keyCode == 27 || keyCode == 'Escape') {
+    cardPopup.style.display = "none";
+  }
+}
 
     
 
