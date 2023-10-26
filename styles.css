@@ -271,6 +271,47 @@ footer {
     color: inherit;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Centre les cartes horizontalement et ajoute de l'espace entre les articles */
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
+.article-card {
+    width: calc(50% - 10px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: #25262b;
+    color: #fff;
+}
+
+.article-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-button {
+  display: block;
+  margin-top: 10px;
+  background-color: #bd4040;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.article-button:hover {
+  background-color: #bb2a2a;
+}
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
@@ -303,4 +344,37 @@ footer {
     .Bakugan {
         width: 100%; /* Make cards full-width on mobile */
     }
+
+    .article-card {
+        width: calc(100% - 10px);
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .article-card {
+        width: calc(25% - 15px); /* Ajustez la largeur selon votre préférence et ajoutez de l'espace entre les articles */
+        margin: 10px 0;
+    }
+  }
+
+/* Ajoutez une barre de défilement personnalisée */
+::-webkit-scrollbar {
+    width: 12px; /* Largeur de la barre de défilement */
+}
+
+/* Barre de défilement */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3); /* Couleur de la barre de défilement */
+    border-radius: 10px; /* Bord arrondi de la barre de défilement */
+}
+
+/* Bouton de défilement au survol */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Couleur au survol */
+}
+
+/* Fond de la barre de défilement */
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1); /* Couleur du fond de la barre de défilement */
 }
