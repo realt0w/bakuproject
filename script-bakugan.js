@@ -92,23 +92,23 @@ document.addEventListener("DOMContentLoaded", function () {
         const additionalImage = document.createElement("img");
     
         // Set the second image source based on the Bakugan's element
-        switch (BakuganInfo.type) {
-            case "Aquos":
+        switch ((BakuganInfo.type?BakuganInfo.type:'').toLowerCase()) {
+            case "aquos":
                 additionalImage.src = "./images/aquos.svg";
                 break;
-            case "Pyrus":
+            case "pyrus":
                 additionalImage.src = "./images/pyrus.svg";
                 break;
-            case "Haos":
+            case "haos":
                 additionalImage.src = "./images/haos.svg";
                 break;
-            case "Darkus":
+            case "darkus":
                 additionalImage.src = "./images/darkus.svg";
                 break;
-            case "Ventus":
+            case "ventus":
                 additionalImage.src = "./images/ventus.svg";
                 break;
-            case "Subterra":
+            case "subterra":
                 additionalImage.src = "./images/subterra.svg";
                 break;
             default:
@@ -161,23 +161,23 @@ document.addEventListener("DOMContentLoaded", function () {
     
             // Get the Bakugan type for the image source
             const BakuganType = Bakugan.getAttribute("data-type");
-            switch (BakuganType) {
-                case "Aquos":
+            switch ((BakuganType?BakuganType:'').toLowerCase()) {
+                case "aquos":
                     popupTypeImage.src = "./images/aquos.svg";
                     break;
-                case "Pyrus":
+                case "pyrus":
                     popupTypeImage.src = "./images/pyrus.svg";
                     break;
-                case "Haos":
+                case "haos":
                     popupTypeImage.src = "./images/haos.svg";
                     break;
-                case "Darkus":
+                case "darkus":
                     popupTypeImage.src = "./images/darkus.svg";
                     break;
-                case "Ventus":
+                case "ventus":
                     popupTypeImage.src = "./images/ventus.svg";
                     break;
-                case "Subterra":
+                case "subterra":
                     popupTypeImage.src = "./images/subterra.svg";
                     break;
                 default:
