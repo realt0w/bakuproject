@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             type: "NAC",
-            image: "./images/cards/NormalAbilityCards.png",
+            image: "./images/cards/FireWall.png",
             attribute: "pyrus",
             title: "Fire Wall",
             description: "An opponent's Bakugan loses -50 G's.",
@@ -246,6 +246,61 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Mega Impact",
             description: "Gorem gains +50 G's, and an opponent's Bakugan loses -100 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "CGC",
+            image: "./images/cards/QuartetBattle.png",
+            title: "Quartet Battle",
+            description: "Both players add a new Bakugan to the battle.",
+            price: "??? HSP"
+        },
+        {
+            type: "SAC",
+            image: "./images/cards/AlphaBlaster.png",
+            attribute: "haos",
+            title: "Alpha Blaster",
+            description: "Leonidas gains +200 G's",
+            price: "??? HSP"
+        },
+        {
+            type: "SAC",
+            image: "./images/cards/FireTornado.png",
+            attribute: "pyrus",
+            title: "Fire Tornado",
+            description: "Transfer 100 G's from an opponent to your Pyrus Bakugan.",
+            price: "??? HSP"
+        },
+        {
+            type: "SAC",
+            image: "./images/cards/BoostedDragon.png",
+            attribute: "pyrus",
+            title: "Boosted Dragon",
+            description: "Dragonoid gains +100 G's for the rest of the battle.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/DoubleDimension.png",
+            attribute: "haos",
+            title: "Double Dimension",
+            description: "Nullifies the opponent's last ability.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/DoubleDimensionDarkus.png",
+            attribute: "darkus",
+            title: "Double Dimension",
+            description: "Nullifies the opponent's last ability.",
+            price: "??? HSP"
+        },
+        {
+            type: "NAC",
+            image: "./images/cards/CorrelationDarkusPyrus.png",
+            attribute: "darkus",
+            title: "Correlation - Darkus & Pyrus",
+            description: "If your opponent has a Pyrus Bakugan on the field, your Darkus Bakugan gains +100 G's.",
             price: "??? HSP"
         },
         // Add more card data as needed
