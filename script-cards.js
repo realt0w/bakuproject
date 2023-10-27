@@ -461,8 +461,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             type: "SAC",
-            image: "./images/cards/AlphaBlaster.png",
-            attribute: "haos",
+            image: "./images/cards/AlphaBlaster.png",            
             title: "Alpha Blaster",
             description: "Leonidas gains +200 G's",
             price: "??? HSP"
@@ -769,6 +768,30 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "If your field contains a Darkus, Ventus, & Subterra Bakugan they each gain +200 G's.",
             price: "??? HSP"
         },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Air Battle",   
+	    attribute: "ventus",    
+            description: "Move your Ventus Bakugan to another gate card and prevent it from opening.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Ability Counter",   
+	    attribute: "Haos",    
+            description: "Nullify an opponent's ability card.",
+            price: "??? HSP"
+        },
+	     {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Haos Freeze",   
+	    attribute: "Haos",    
+            description: "Immediately add an allied Bakugan into battle.",
+            price: "??? HSP"
+        },
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
@@ -802,6 +825,27 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/LasermanGateCards.png",
             title: "Laserman",
             description: "Laserman's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/LeonidasGateCards.png",
+            title: "Leonidas",
+            description: "Leonidas's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/WariusGateCards.png",
+            title: "Warius",
+            description: "Warius's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/PreyasGateCards.png",
+            title: "Preyas",
+            description: "Preyas's power level is doubled.",
             price: "??? HSP"
         },
         {
@@ -872,6 +916,71 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Pyrus Hazard",
             description: "All Bakugan on the gate card are changed to Pyrus.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Intercept",
+            description: "The battle is put on hold until another Bakugan is added to the gate card.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Mine Ghost",
+            description: "All Bakugan present on the gate card are defeated.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Triple Battle",
+            description: "The user can add an additional Bakugan to the battle, or the battle is put on hold until there are at least three present on the gate card.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Magma Fuse",
+            description: "After the battle is over, all gate cards on the field are destroyed and all Bakugan are returned to their owners.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Wall Lock",
+            description: "All power level changes for Bakugan on this gate card are nullified.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Scapegoat",
+            description: "The owner of the first Bakugan to land on the gate card can decide to continue the battle or return all Bakugan present to their owner's hands.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Flare Blinder",
+            attribute: "Haos",
+            description: "If you control a Haos Tentaclear in battle, the opponenent cannot activate any ability or gate cards while the battle is ongoing.",
+            price: "??? HSP"
+        },
+		{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Tornado Pandemonium",
+            attribute: "Ventus",
+            description: "If your Ventus Ravenoid is currently battling, an opponenent's Bakugan loses -100 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Robotallion Enforcement",            
+            description: "Robotallion gains +50 G's for the rest of the battle.",
             price: "??? HSP"
         },
         // Add more card data as needed
