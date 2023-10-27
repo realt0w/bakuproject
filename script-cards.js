@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Haos - 30",
             description: "Haos bakugan present on the gate card gain +30 G's.",
             price: "??? HSP"
-        },
+        },	
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
@@ -413,6 +413,14 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "If there is a Haos Bakugan on the field, your Subterra Bakugan gains +100 G's. If the other Bakugan was an ally, both Bakugan gain +50 G's instead.",
             price: "??? HSP"
         },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "Ventus",
+            title: "Correlation - Ventus & Pyrus",
+            description: "If there is a Pyrus Bakugan on the field, your Ventus Bakugan gains +100 G's. If the other Bakugan was an ally, both Bakugan gain +50 G's instead.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
@@ -490,6 +498,14 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "If your opponent has a Pyrus Bakugan on the field, your Darkus Bakugan gains +100 G's.",
             price: "??? HSP"
         },
+	{
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Magma Providence",
+	    attribute: "subterra",
+            description: "Change a gate card's attribute to Subterra.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
@@ -536,6 +552,14 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Dive Mirage",
             description: "Move your Aquos Bakugan to an adjacent gate card, nullifying it.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "aquos",
+            title: "Water Refrain",
+            description: "All previous abilities used this chain are nullified.",
             price: "??? HSP"
         },
         {
@@ -614,6 +638,29 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Preyas gains +50 G's and nullifies the gate card he's standing on.",
             price: "??? HSP"
         },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Aqua Javelin",     
+	    attribute: "aquos",
+            description: "Swap the gate card Aquos Siege is currently on with another adjacent card.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Cut In Slayer",     
+	    description: "All Bakugan on the user's side are defeated except for one, and their G's are added to the remaining Bakugan.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Storm Breaker",     
+	    attribute: "ventus",
+            description: "Nullify the gate card your Ventus Bakugan is battling on.",
+            price: "??? HSP"
+        },
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
@@ -660,12 +707,66 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Transfer 100 G's from an opponent to your Pyrus Bakugan.",
             price: "??? HSP"
         },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Power Charge",
+            attribute: "pyrus",
+            description: "Pyrus Saurus/Tigrerra gains +100 G's, and can move to an opponent's gate card.",
+            price: "??? HSP"
+        },
+	{
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Oregano Revenge",
+            attribute: "darkus",
+            description: "Your Darkus Bakugan gains +100 G's and each of your opponent's Bakugan in battle against it lose -100 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Darkus Gravity",
+            attribute: "darkus",
+            description: "Add an additional Darkus Bakugan into battle.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Doom Companion",
+            attribute: "darkus",
+            description: "All Bakugan on a gate card with your Darkus Bakugan are removed from play for the rest of the game.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
             title: "Backfire",
             attribute: "pyrus",
             description: "Nullify the gate card your Pyrus Bakugan is battling on.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Frame Fire",
+            attribute: "pyrus",
+            description: "Nullify an opponent's ability and have their Bakugan lose -50 G's instead.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Triple Node - Pyrus, Aquos, & Haos",            
+            description: "If your field contains a Pyrus, Aquos, & Haos Bakugan they each gain +200 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Triple Node - Darkus, Ventus, & Subterra",            
+            description: "If your field contains a Darkus, Ventus, & Subterra Bakugan they each gain +200 G's.",
             price: "??? HSP"
         },
         {
@@ -736,6 +837,41 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/RavenoidGateCards.png",
             title: "Ravenoid",
             description: "Ravenoid's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/DualHydranoidGateCards.png",
+            title: "Dual Hydranoid",
+            description: "Dual Hydranoid's power level is doubled.",
+            price: "??? HSP"
+        },
+	{
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Energy Merge",
+            description: "100 G's are transferred from the last Bakugan to stand on the gate card to the first.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Hyper Merge",
+            description: "Transfer 100 G's from an opponent's Bakugan to each of yours currently in battle.",
+            price: "??? HSP"
+        },
+	{
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Ventus Hazard",
+            description: "All Bakugan on the gate card are changed to Ventus.",
+            price: "??? HSP"
+        },
+	{
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Pyrus Hazard",
+            description: "All Bakugan on the gate card are changed to Pyrus.",
             price: "??? HSP"
         },
         // Add more card data as needed
