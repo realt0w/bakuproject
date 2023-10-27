@@ -318,6 +318,20 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "If the opponent's Bakugan is Pyrus, Aquos or Haos, it loses -200 G's. Otherwise the user's Bakugan loses -200 G's.",
             price: "??? HSP"
         },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Negative Delta",
+            description: "If the opponent's Bakugan is Darkus, Subterra or Ventus, it loses -200 G's. Otherwise the user's Bakugan loses -200 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Final Judgement",
+            description: "All non-Haos Bakugan on the gate card have their power levels reduced to 0.",
+            price: "??? HSP"
+        },
         {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
@@ -488,6 +502,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Double Dimension",
             description: "Nullifies the opponent's last ability.",
             price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Gamma Ray",
+            description: "Nullifies the opponent's last ability.",
+            price: "??? HSP"
         },//Double Dimension does not seem attributed in game, usuable by multiple       
         {
             type: "NAC",
@@ -577,6 +598,13 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Pyrus Siege gains +100 G's.",
             price: "??? HSP"
         },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Feather Storm",
+            description: "Harpus gains +100 G's.",
+            price: "??? HSP"
+        },
         {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
@@ -584,11 +612,33 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Fear Ripper gaina +80 G's for the rest of the battle.",
             price: "??? HSP"
         },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Saurus Glow",            
+            description: "Saurus gaina +50 G's for the rest of the battle.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Dual Gazer",            
+            description: "If Dual Hydranoid is your last remaining Bakugan,it gains +50 G's and attacks two Bakugan on the field.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
             title: "Diagonal Link - Aquos & Subterra",
             description: "If there is a Aquos/Subterra Bakugan on the field, your opposite Attributed Bakugan gains +100 G's. If the other Bakugan was an ally, it gains +100 G's as well.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Tsunami Wave",
+	    attribute: "aquos",
+            description: "If you control Aquos Siege and two other Aquos Bakugan, all Bakugan on the field besides Aquos Siege are defeated.",
             price: "??? HSP"
         },
         {
@@ -612,6 +662,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Rapid Haos",
             attribute: "haos",
             description: "Add an additional Haos Bakugan into battle. If the Bakugan is a teammate's, it can be any attribute.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Haos Triple Chain - Haos Stasis",
+            attribute: "haos",
+            description: "If there are three Haos Bakugan on the field, your Haos Bakugan gains +100 G's and all your other previously used Ability Cards are returned to you.",
             price: "??? HSP"
         },
         {
@@ -655,9 +713,31 @@ document.addEventListener("DOMContentLoaded", function () {
 	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
+            title: "Merge Shield",     
+	    description: "Hydranoid copies all G's gained by an opponent's Bakugan this battle.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Cut In Saber",     
+	    description: "Allows Tigrerra to enter the current battle.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
             title: "Storm Breaker",     
 	    attribute: "ventus",
             description: "Nullify the gate card your Ventus Bakugan is battling on.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Pure Light",     
+	    attribute: "haos",
+            description: "Revive a defeated Bakugan and give it to an ally with less than three Bakugan in their deck.",
             price: "??? HSP"
         },
         {
@@ -698,12 +778,20 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Your Pyrus Bakugan gains +100 G's.",
             price: "??? HSP"
         },
-        {
+	    {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
-            title: "Fire Tornado",
-            attribute: "pyrus",
-            description: "Transfer 100 G's from an opponent to your Pyrus Bakugan.",
+            title: "Solar Ray",
+            attribute: "haos",
+            description: "Your Haos Bakugan gains +100 G's.",
+            price: "??? HSP"
+        },
+        {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Lightning Tornado",
+            attribute: "haos",
+            description: "Transfer 100 G's from an opponent to your Haos Bakugan.",
             price: "??? HSP"
         },
 	    {
@@ -714,12 +802,28 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Pyrus Saurus/Tigrerra gains +100 G's, and can move to an opponent's gate card.",
             price: "??? HSP"
         },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Venomous Beast Torrent Attack",
+            attribute: "haos",
+            description: "Your Haos Bakugan is defeated and replaced with another of your currently defeated Haos Bakugan.",
+            price: "??? HSP"
+        },
 	{
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
             title: "Oregano Revenge",
             attribute: "darkus",
             description: "Your Darkus Bakugan gains +100 G's and each of your opponent's Bakugan in battle against it lose -100 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Spirit Canyon",
+            attribute: "subterra",
+            description: "Copy any power level gains from an opponent's gate card to your Bakugan",
             price: "??? HSP"
         },
 	    {
@@ -779,6 +883,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	    {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
+            title: "Jump Over",   
+	    attribute: "ventus",    
+            description: "Move your Ventus Bakugan to an adjacent gate card.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
             title: "Ability Counter",   
 	    attribute: "Haos",    
             description: "Nullify an opponent's ability card.",
@@ -789,7 +901,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Haos Freeze",   
 	    attribute: "Haos",    
-            description: "Immediately add an allied Bakugan into battle.",
+            description: "Immediately add a Haos Bakugan from your deck into battle.",
             price: "??? HSP"
         },
         {
@@ -799,6 +911,20 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Any Bakugan on the gate card with a power level of 400 G's or higher loses -100 G's.",
             price: "??? HSP"
         },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Warp Gate",
+            description: "All Bakugan on this gate card are moved to another.",
+            price: "??? HSP"
+        },
+	   {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Revive",
+            description: "The winning player revives a defeated Bakugan",
+            price: "??? HSP"
+        }, 
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
@@ -904,6 +1030,13 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Transfer 100 G's from an opponent's Bakugan to each of yours currently in battle.",
             price: "??? HSP"
         },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Aquos Hazard",
+            description: "All Bakugan on the gate card are changed to Aquos.",
+            price: "??? HSP"
+        },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
@@ -911,11 +1044,53 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "All Bakugan on the gate card are changed to Ventus.",
             price: "??? HSP"
         },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Subterra Hazard",
+            description: "All Bakugan on the gate card are changed to Subterra.",
+            price: "??? HSP"
+        },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Pyrus Hazard",
             description: "All Bakugan on the gate card are changed to Pyrus.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Darkus Hazard",
+            description: "All Bakugan on the gate card are changed to Darkus.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Haos Hazard",
+            description: "All Bakugan on the gate card are changed to Haos.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Supernova",
+            description: "All Bakugan present on the gate cards have their power levels swapped.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Fair Hands",
+            description: "A random gate card from both player's used pile are placed back on the field, open. Command cards lose their effects.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Third Judgement",
+            description: "The battle can only start when there are three Bakugan on the gate card, and only one Bakugan can win.",
             price: "??? HSP"
         },
 	    {
@@ -961,11 +1136,26 @@ document.addEventListener("DOMContentLoaded", function () {
             price: "??? HSP"
         },
 	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Transformation",
+            description: "Your Bakugan's G-Power becomes equal to that of the strongest undefeated Bakugan you have in your hand.",
+            price: "??? HSP"
+        },
+	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Flare Blinder",
             attribute: "Haos",
             description: "If you control a Haos Tentaclear in battle, the opponenent cannot activate any ability or gate cards while the battle is ongoing.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Mega Flare Blinder",
+            attribute: "Haos",
+            description: "Haos Tentaclear gains +100 G's, and if it's in battle the opponenent cannot activate any ability or gate cards while the battle is ongoing.",
             price: "??? HSP"
         },
 		{
@@ -979,10 +1169,33 @@ document.addEventListener("DOMContentLoaded", function () {
 	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
+            title: "Spark Out",
+            attribute: "Haos",
+            description: "Haos Ravenoid gains +50 G's and the opponent's gate card is nullified.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
             title: "Robotallion Enforcement",            
             description: "Robotallion gains +50 G's for the rest of the battle.",
             price: "??? HSP"
         },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Gravity Chamber",            
+            description: "All adjacent Bakugan are moved to Hydranoid's gate card, and any weaker ones are immediately defeated.",
+            price: "??? HSP"
+        },	    
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Black Is Darkness",            
+            description: "Bring all adjacent Bakugan to your Darkus Bakugan's gate card",
+            price: "??? HSP"
+        },
+	
         // Add more card data as needed
     ];
     
