@@ -1016,6 +1016,27 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Dual Hydranoid's power level is doubled.",
             price: "??? HSP"
         },
+	    {
+            type: "CHGC",
+            image: "./images/cards/TentaclearGateCards.png",
+            title: "Tentaclear",
+            description: "Tentaclear's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/DragonoidGateCards.png",
+            title: "Dragonoid",
+            description: "Dragonoid's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/TigrerraGateCards.png",
+            title: "Tigrerra",
+            description: "Tigrerra's power level is doubled.",
+            price: "??? HSP"
+        },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
