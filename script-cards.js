@@ -1212,7 +1212,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	    {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
-            title: "Black Is Darkness",            
+            title: "Black Is Darkness",   
+	    attribute: "darkus",    
             description: "Bring all adjacent Bakugan to your Darkus Bakugan's gate card",
             price: "??? HSP"
         },
