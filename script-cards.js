@@ -646,7 +646,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Diagonal Link - Ventus & Haos",
             description: "If there is a Ventus/Haos Bakugan on the field, your opposite Attributed Bakugan gains +100 G's. If the other Bakugan was an ally, it gains +100 G's as well.",
-            price: "??? HSP"
+            price: "2.000 HSP"
         },
         {
             type: "NAC",
@@ -863,7 +863,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Triple Node - Pyrus, Aquos, & Haos",            
             description: "If your field contains a Pyrus, Aquos, & Haos Bakugan they each gain +200 G's.",
-            price: "??? HSP"
+            price: "2.500 HSP"
         },
 	    {
             type: "NAC",
@@ -1212,9 +1212,17 @@ document.addEventListener("DOMContentLoaded", function () {
 	    {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
-            title: "Black Is Darkness",            
+            title: "Black Is Darkness",   
+	    attribute: "darkus",    
             description: "Bring all adjacent Bakugan to your Darkus Bakugan's gate card",
             price: "??? HSP"
+        },
+	     {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Ventus Triple Chain - Winds of Fury",            
+            description: "If you control three Ventus Bakugan on the field, each of your opponent's Bakugan loses -100 G's, then one of your Ventus Bakugan can attack each of them.",
+            price: "3500 HSP"
         },
 	
         // Add more card data as needed
