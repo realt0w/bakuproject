@@ -16,6 +16,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const BakuganData = [
         {
+            type: "Haos",
+            image: "./images/Bakugan/HaosDragonoid.png",
+            title: "Dragonoid",
+            description: "Even though Dragonoid gets more and more powerful with each evolved form, his original form is one to be reckoned with. He can raise so much fiery energy during a battle that everything around him melts. His unusually high intelligence allows him to strategize on the field. Dragonoid's main weakness is that he's not extremely agile, but what he loses in mobility he makes up for with his powerful strikes.",
+            power: "340 G",
+            price: "8.000 HSP",
+        },
+        {
+            type: "Haos",
+            image: "./images/Bakugan/HaosRavenoid.png",
+            title: "Ravenoid",
+            description: "Ravenoid is a Bakugan that looks like a humanoid raven. Its swoops down from the sky to attack its prey, grabbing it in its strong claws. Few Bakugan can escape Ravenoid's vice-like grip. Plated battle armor protects it from attacks.",
+            power: "320 G",
+            price: "4.000 HSP",
+        },
+        {
+            type: "Haos",
+            image: "./images/Bakugan/HaosFearRipper.png",
+            title: "Fear Ripper",
+            description: "Fear Ripper gets its name from its monstrous claws. Each one is three times bigger than its head! Fear Ripper can use them to slash its enemies on the battlefield.",
+            power: "300 G",
+            price: "4.000 HSP",
+        },
+        {
+            type: "Haos",
+            image: "./images/Bakugan/HaosReaper.png",
+            title: "Reaper",
+            description: "Just like the Grim Reaper of lore, Reaper carriers a sharp, curved scythe that he uses to cut his opponents down to size. Reaper is fueled by rage, and his attacks are especially ferocious and cruel. You'll recognize Reaper by the horns on his head and skeletal wings on his back.",
+            power: "300 G",
+            price: "4.000 HSP",
+        },
+        {
             type: "Pyrus",
             image: "./images/Bakugan/PyrusHarpus.png",
             title: "Harpus",
