@@ -609,14 +609,14 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Slash Zero",            
-            description: "Fear Ripper gaina +80 G's for the rest of the battle.",
+            description: "Fear Ripper gains +80 G's for the rest of the battle.",
             price: "??? HSP"
         },
 	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Saurus Glow",            
-            description: "Saurus gaina +50 G's for the rest of the battle.",
+            description: "Saurus gains +50 G's for the rest of the battle.",
             price: "??? HSP"
         },
 	    {
