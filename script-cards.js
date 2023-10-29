@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const closePopup = document.getElementById("close-popup");
     const cardType = document.getElementById("card-type");
     const cardAttribute = document.getElementById("card-attribute");
+    const cardsAttribute = document.getElementById("cards-attribute");//Selected one
+	
 
     const cardData = [
         {
@@ -1355,9 +1357,24 @@ cardData.forEach(cardInfo => {
 
     cardType.addEventListener("change", () => {
         const selectedType = cardType.value;
+		const selectedAttribute = cardsAttribute.value;
         cardList.querySelectorAll(".card").forEach(card => {
             const cardDataType = card.getAttribute("data-type");
-            if (selectedType === "all" || selectedType === cardDataType) {
+			const cardDataAttribute = card.getAttribute("data-attribute");
+            if ((selectedType === "all" || selectedType === cardDataType)&& (selectedAttribute === "all" || selectedAttribute === cardDataAttribute)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+	cardsAttribute.addEventListener("change", () => {
+		const selectedType = cardType.value;
+        const selectedAttribute = cardsAttribute.value;
+        cardList.querySelectorAll(".card").forEach(card => {
+			const cardDataType = card.getAttribute("data-type");
+            const cardDataAttribute = card.getAttribute("data-attribute");
+            if ((selectedType === "all" || selectedType === cardDataType)&& (selectedAttribute === "all" || selectedAttribute === cardDataAttribute)) {
                 card.style.display = "block";
             } else {
                 card.style.display = "none";
