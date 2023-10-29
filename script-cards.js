@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "haos",
             title: "Haos - 30",
             description: "Haos bakugan present on the gate card gain +30 G's.",
-            price: "??? HSP"
+            price: "250 HSP"
         },	
         {
             type: "NGC",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "haos",
             title: "Haos - 50",
             description: "Haos bakugan present on the gate card gain +50 G's.",
-            price: "??? HSP"
+            price: "500 HSP"
         },
         {
             type: "NGC",
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "haos",
             title: "Haos - 70",
             description: "Haos bakugan present on the gate card gain +70 G's.",
-            price: "??? HSP"
+            price: "1.000 HSP"
         },
         {
             type: "NGC",
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "pyrus",
             title: "Pyrus - 30",
             description: "Pyrus bakugan present on the gate card gain +30 G's.",
-            price: "??? HSP"
+            price: "250 HSP"
         },
         {
             type: "NGC",
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "pyrus",
             title: "Pyrus - 50",
             description: "Pyrus bakugan present on the gate card gain +50 G's.",
-            price: "??? HSP"
+            price: "500 HSP"
         },
         {
             type: "NGC",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "pyrus",
             title: "Pyrus - 70",
             description: "Pyrus bakugan present on the gate card gain +70 G's.",
-            price: "??? HSP"
+            price: "1.000 HSP"
         },
         {
             type: "NGC",
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "ventus",
             title: "Ventus - 30",
             description: "Ventus bakugan present on the gate card gain +30 G's.",
-            price: "??? HSP"
+            price: "250 HSP"
         },
         {
             type: "NGC",
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "ventus",
             title: "Ventus - 50",
             description: "Ventus bakugan present on the gate card gain +50 G's.",
-            price: "??? HSP"
+            price: "500 HSP"
         },
         {
             type: "NGC",
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "ventus",
             title: "Ventus - 70",
             description: "Ventus bakugan present on the gate card gain +70 G's.",
-            price: "??? HSP"
+            price: "1.000 HSP"
         },
         {
             type: "NGC",
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Darkus - 30",
             description: "Darkus bakugan present on the gate card gain +30 G's.",
-            price: "??? HSP"
+            price: "250 HSP"
         },
         {
             type: "NGC",
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Darkus - 50",
             description: "Darkus bakugan present on the gate card gain +50 G's.",
-            price: "??? HSP"
+            price: "500 HSP"
         },
         {
             type: "NGC",
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Darkus - 70",
             description: "Darkus bakugan present on the gate card gain +70 G's.",
-            price: "??? HSP"
+            price: "1.000 HSP"
         },
         {
             type: "NGC",
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Subterra - 30",
             description: "Subterra bakugan present on the gate card gain +30 G's.",
-            price: "??? HSP"
+            price: "250 HSP"
         },
         {
             type: "NGC",
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Subterra - 50",
             description: "Subterra bakugan present on the gate card gain +50 G's.",
-            price: "??? HSP"
+            price: "500 HSP"
         },
         {
             type: "NGC",
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Subterra - 70",
             description: "Subterra bakugan present on the gate card gain +70 G's.",
-            price: "??? HSP"
+            price: "1,000 HSP"
         },
         {
             type: "NGC",
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Aquos - 30",
             description: "Aquos bakugan present on the gate card gain +30 G's.",
-            price: "??? HSP"
+            price: "250 HSP"
         },
         {
             type: "NGC",
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Aquos - 50",
             description: "Aquos bakugan present on the gate card gain +50 G's.",
-            price: "??? HSP"
+            price: "500 HSP"
         },
         {
             type: "NGC",
@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Aquos - 70",
             description: "Aquos bakugan present on the gate card gain +70 G's.",
-            price: "??? HSP"
+            price: "1000 HSP"
         },
         {
             type: "NGC",

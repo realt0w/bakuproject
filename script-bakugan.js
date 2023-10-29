@@ -48,6 +48,22 @@ document.addEventListener("DOMContentLoaded", function () {
             price: "4.000 HSP",
         },
         {
+            type: "Haos",
+            image: "./images/Bakugan/HaosFalconeer.png",
+            title: "Falconeer",
+            description: "It's not easy to defeat Falconeer. This fast-flying Bakugan can maneuver at high speed. It uses superior vision to target prey form a distance. And if you are lucky enough to bring Falconeer down-watch out! This amazing creature can resurrect itself and right any wrong it experienced during battle. Only the best brawlers can take Falconeer twice.",
+            power: "300 G",
+            price: "2.500 HSP",
+        },
+        {
+            type: "Haos",
+            image: "./images/Bakugan/HaosDualHydranoid.png",
+            title: "Dual Hydranoid",
+            description: "This Bakugan is extremely strong, and it steals energy from Bakugan sent to the Doom Dimension to become stronger. Only a cruel and heartless creature could do that! In battle, Hydranoid is hard to defeat, thanks to its tough outer skin and double heads. It lashes out at opponents with its long tail. Hydranoid may not be able to move fast, but it makes up for its lack of speed with the sheer force of its attacks.",
+            power: "480 G",
+            price: "12.500 HSP",
+        },
+        {
             type: "Pyrus",
             image: "./images/Bakugan/PyrusHarpus.png",
             title: "Harpus",
