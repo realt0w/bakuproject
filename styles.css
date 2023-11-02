@@ -313,6 +313,15 @@ footer {
   background-color: #bb2a2a;
 }
 
+.card-filters {
+
+}
+
+.card-filters img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
 /* Mobile responsive styles */
 @media (max-width: 768px) {
     header {
@@ -350,6 +359,7 @@ footer {
         margin: 10px 0;
     }
 }
+
 
 @media screen and (min-width: 769px) {
     .article-card {
