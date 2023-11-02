@@ -319,8 +319,7 @@ footer {
 
 .card-filter img{
     width: 30px;
-    height: 30px;
-    margin-right: 5px;
+    height: 30px;   
 }
 /* Mobile responsive styles */
 @media (max-width: 768px) {
