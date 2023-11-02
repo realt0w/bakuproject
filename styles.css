@@ -339,10 +339,11 @@ footer {
     transform: scale(1.05);
 }
 
-.filter-box button {
-    padding: 0;
+button {
+background-color: inherit;
+padding: 0;
 border: none;
-background: none;
+appearance: none;
 }
 
 .filter-box img {
