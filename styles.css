@@ -314,7 +314,11 @@ footer {
 }
 
 .card-filters {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Centre les cartes horizontalement et ajoute de l'espace entre les articles */
+    margin: 10px;
+    padding-bottom: 100px;
 }
 
 .card-filter img{
