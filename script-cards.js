@@ -18,6 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 
     const cardData = [
+	    {
+            type: "CHGC",
+            image: "./images/cards/BeeStrikerGateCards.png",
+            title: "Bee Striker",
+            description: "Bee Striker's power level is doubled.",
+            price: "??? HSP"
+        },
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
@@ -340,6 +347,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Leap Sting",
             description: "An opponent's Bakugan loses 50 G's and Laserman can attack it from anywhere.",
             price: "??? HSP"
+        },  
+	{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Green Nobility - Violent Wind",
+            description: "Skyress gains +100 G's",
+            price: "??? HSP"
         },     
          {
             type: "SAC",
@@ -360,6 +374,13 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/Anthemusa.png",
             title: "Anthemusa",
             description: "All weaker adjacent Bakugan are moved to Sirenoid's gate card and immediately defeated.",
+            price: "??? HSP"
+        },
+	{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Dark Sphere Impact",
+            description: "An opponent's Bakugan loses -200 G's.",
             price: "??? HSP"
         },
         {
@@ -392,6 +413,13 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
             price: "??? HSP"
         },
+	{
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Reinforcement",
+            description: "Your Bakugan's Power Level increasesby 100 G's for each other Bakugan on your side of the field with the same attribute.",
+            price: "??? HSP"
+        },	
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
@@ -404,6 +432,13 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Additional Task",
             description: "The last Bakugan thrown on the gate card is returned to it's owner and is replaced by another Bakugan from their hand.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Trade-Off",
+            description: "Either side with a combined power level of over 400 G's is defeated.",
             price: "??? HSP"
         },
         {
@@ -420,6 +455,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Correlation - Pyrus & Subterra",
             description: "If there is a Subterra Bakugan on the field, your Pyrus Bakugan gains +100 G's. If the other Bakugan was an ally, both Bakugan gain +50 G's instead.",
             price: "1.500 HSP"
+        },
+	{
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "ventus",
+            title: "Reverse Blow",
+            description: "Return your Ventus Bakugan to your hand."            
         },
         {
             type: "NAC",
@@ -461,11 +503,19 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Gorem gains +50 G's, and an opponent's Bakugan loses -100 G's.",
             price: "??? HSP"
         },
+	{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            
+            title: "Face of Grief",
+            description: "Immediately nullify the opponent's last ability card.",
+            price: "??? HSP"
+        },
         {
             type: "CGC",
             image: "./images/cards/QuartetBattle.png",
             title: "Quartet Battle",
-            description: "Both players add a new Bakugan to the battle.",
+            description: "Both sides add Bakugan to the gate card until at least 4 are present.",
             price: "??? HSP"
         },
          {
@@ -671,7 +721,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Haos Triple Chain - Haos Stasis",
             attribute: "haos",
-            description: "If there are three Haos Bakugan on the field, your Haos Bakugan gains +100 G's and all your other previously used Ability Cards are returned to you.",
+            description: "If there are three Haos Bakugan on the field, your Haos Bakugan gains +100 G's and you draw 2 cards. Any teammates draw a card each.",
             price: "??? HSP"
         },
         {
@@ -948,6 +998,20 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Falconeer's power level is doubled.",
             price: "??? HSP"
         },
+	    {
+            type: "CHGC",
+            image: "./images/cards/HarpusGateCards.png",
+            title: "Harpus",
+            description: "Harpus's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/SkyressGateCards.png",
+            title: "Skyress",
+            description: "Skyress's power level is doubled.",
+            price: "??? HSP"
+        },	
         {
             type: "CHGC",
             image: "./images/cards/LasermanGateCards.png",
