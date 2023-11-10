@@ -18,6 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	
 
     const cardData = [
+	    {
+            type: "CHGC",
+            image: "./images/cards/BeeStrikerGateCards.png",
+            title: "Bee Striker",
+            description: "Bee Striker's power level is doubled.",
+            price: "??? HSP"
+        },
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
