@@ -347,6 +347,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Leap Sting",
             description: "An opponent's Bakugan loses 50 G's and Laserman can attack it from anywhere.",
             price: "??? HSP"
+        },  
+	{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Green Nobility - Violent Wind",
+            description: "Skyress gains +100 G's",
+            price: "??? HSP"
         },     
          {
             type: "SAC",
