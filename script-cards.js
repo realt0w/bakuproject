@@ -468,6 +468,14 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Gorem gains +50 G's, and an opponent's Bakugan loses -100 G's.",
             price: "??? HSP"
         },
+	{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            
+            title: "Face of Grief",
+            description: "Immediately nullify the opponent's last ability card.",
+            price: "??? HSP"
+        },
         {
             type: "CGC",
             image: "./images/cards/QuartetBattle.png",
