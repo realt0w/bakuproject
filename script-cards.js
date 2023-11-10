@@ -376,6 +376,13 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "All weaker adjacent Bakugan are moved to Sirenoid's gate card and immediately defeated.",
             price: "??? HSP"
         },
+	{
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Dark Sphere Impact",
+            description: "An opponent's Bakugan loses -200 G's.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/FireWall.png",
