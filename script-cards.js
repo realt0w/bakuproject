@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/QuartetBattle.png",
             title: "Quartet Battle",
-            description: "Both players add a new Bakugan to the battle.",
+            description: "Both sides add Bakugan to the gate card until at least 4 are present.",
             price: "??? HSP"
         },
          {
