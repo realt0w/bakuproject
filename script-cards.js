@@ -948,6 +948,20 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Falconeer's power level is doubled.",
             price: "??? HSP"
         },
+	    {
+            type: "CHGC",
+            image: "./images/cards/HarpusGateCards.png",
+            title: "Harpus",
+            description: "Harpus's power level is doubled.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/SkyressGateCards.png",
+            title: "Skyress",
+            description: "Skyress's power level is doubled.",
+            price: "??? HSP"
+        },	
         {
             type: "CHGC",
             image: "./images/cards/LasermanGateCards.png",
