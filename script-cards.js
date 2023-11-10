@@ -406,6 +406,13 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
             price: "??? HSP"
         },
+	{
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Reinforcement",
+            description: "Your Bakugan's Power Level increasesby 100 G's for each other Bakugan on your side of the field with the same attribute.",
+            price: "??? HSP"
+        },	
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
@@ -418,6 +425,13 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Additional Task",
             description: "The last Bakugan thrown on the gate card is returned to it's owner and is replaced by another Bakugan from their hand.",
+            price: "??? HSP"
+        },
+	    {
+            type: "CGC",
+            image: "./images/cards/CommandGateCards.png",
+            title: "Trade-Off",
+            description: "Either side with a combined power level of over 400 G's is defeated.",
             price: "??? HSP"
         },
         {
@@ -434,6 +448,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Correlation - Pyrus & Subterra",
             description: "If there is a Subterra Bakugan on the field, your Pyrus Bakugan gains +100 G's. If the other Bakugan was an ally, both Bakugan gain +50 G's instead.",
             price: "1.500 HSP"
+        },
+	{
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "ventus",
+            title: "Reverse Blow",
+            description: "Return your Ventus Bakugan to your hand."            
         },
         {
             type: "NAC",
