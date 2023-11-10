@@ -714,7 +714,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Haos Triple Chain - Haos Stasis",
             attribute: "haos",
-            description: "If there are three Haos Bakugan on the field, your Haos Bakugan gains +100 G's and all your other previously used Ability Cards are returned to you.",
+            description: "If there are three Haos Bakugan on the field, your Haos Bakugan gains +100 G's and you draw 2 cards. Any teammates draw a card each.",
             price: "??? HSP"
         },
         {
