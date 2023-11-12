@@ -391,6 +391,14 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "An opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "ventus",
+            title: "Backdraft",
+            description: "Return a Bakugan to it's owner.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
@@ -953,7 +961,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Haos Freeze",   
 	    attribute: "Haos",    
-            description: "Immediately add a Haos Bakugan from your deck into battle.",
+            description: "Immediately add an additional Haos Bakugan into battle. If the Bakugan is a teammate's, it can be any attribute.",
             price: "??? HSP"
         },
         {
