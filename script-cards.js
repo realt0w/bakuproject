@@ -347,6 +347,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Leap Sting",
             description: "An opponent's Bakugan loses 50 G's and Laserman can attack it from anywhere.",
             price: "??? HSP"
+        }, 
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Forcing Wave",
+            description: "Sirenoid gains +100 G's.",
+            price: "??? HSP"
         },  
 	{
             type: "SAC",
@@ -513,10 +520,16 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 	{
             type: "SAC",
-            image: "./images/cards/SpecialAbilityCards.png",
-            
+            image: "./images/cards/SpecialAbilityCards.png",            
             title: "Face of Grief",
             description: "Immediately nullify the opponent's last ability card.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",            
+            title: "Face of Rage",
+            description: "Fourtress gains +100 G's, and your opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
         {
@@ -843,7 +856,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Solar Ray",
             attribute: "haos",
-            description: "Your Haos Bakugan gains +100 G's.",
+            description: "Your Haos Tentaclear gains +100 G's in battle.",
             price: "??? HSP"
         },
         {
@@ -1243,6 +1256,22 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Flare Blinder",
             attribute: "Haos",
             description: "If you control a Haos Tentaclear in battle, the opponenent cannot activate any ability or gate cards while the battle is ongoing.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Crystal Fang",
+            attribute: "Haos",
+            description: "Tigrerra gains +80 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Shadow Scratch",
+            attribute: "Darkus",
+            description: "Nullify the attribute gate card your Ravenoid is standing on, and an opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
 	    {
