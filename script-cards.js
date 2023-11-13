@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/BeeStrikerGateCards.png",
             title: "Bee Striker",
             description: "Bee Striker's power level is doubled.",
-            price: "??? HSP"		    
+            price: "2000 HSP"		    
         },
 	    {
             type: "CHGC",
@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SiegeGateCards.png",
             title: "Siege",
             description: "Siege's power level is doubled.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
         {
             type: "NAC",
@@ -1031,7 +1031,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/FalconeerGateCards.png",
             title: "Falconeer",
             description: "Falconeer's power level is doubled.",
-            price: "??? HSP"
+            price: "1750 HSP"
         },
 	    {
             type: "CHGC",
@@ -1059,14 +1059,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/LeonidasGateCards.png",
             title: "Leonidas",
             description: "Leonidas's power level is doubled.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/WariusGateCards.png",
             title: "Warius",
             description: "Warius's power level is doubled.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "CHGC",
@@ -1129,14 +1129,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/DragonoidGateCards.png",
             title: "Dragonoid",
             description: "Dragonoid's power level is doubled.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/TigrerraGateCards.png",
             title: "Tigrerra",
             description: "Tigrerra's power level is doubled.",
-            price: "??? HSP"
+            price: "3750 HSP"
         },
 	{
             type: "CGC",
