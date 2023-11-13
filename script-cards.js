@@ -25,6 +25,13 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Bee Striker's power level is doubled.",
             price: "??? HSP"		    
         },
+	    {
+            type: "CHGC",
+            image: "./images/cards/SirenoidGateCards.png",
+            title: "Sirenoid",
+            description: "Sirenoid's power level is doubled.",
+            price: "??? HSP"		    
+        },
         {
             type: "NGC",
             image: "./images/cards/NormallGateCards.png",
