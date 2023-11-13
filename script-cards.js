@@ -428,19 +428,26 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
             price: "??? HSP"
         },
+	    {
+            type: "CGC",
+            image: "./images/cards/CheeringBattle.png",
+            title: "Joker's Wild",
+            description: "If the gate card contains both Darkus and Pyrus Bakugan, all non-Darkus Bakugan are immediately defeated.",
+            price: "5000 HSP"
+        },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Reinforcement",
             description: "Your Bakugan's Power Level increasesby 100 G's for each other Bakugan on your side of the field with the same attribute.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },	
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Peacemaker",
             description: "All Bakugan on the gate card are returned to their owner's hands.",
-            price: "??? HSP"
+            price: "2250 HSP"
         },
         {
             type: "CGC",
@@ -544,7 +551,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Double Battle",
             description: "Both players add an additional Bakugan to the battle.",
-            price: "??? HSP"
+            price: "4000 HSP"
         },
         {
             type: "SAC",
@@ -818,7 +825,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Aqua Merge",
             description: "All non-Subterra Bakugan on the field have their attribute changed to Aquos.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
             {
             type: "CGC",
@@ -1234,7 +1241,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Wall Lock",
             description: "All power level changes for Bakugan on this gate card are nullified.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "CGC",
@@ -1248,7 +1255,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Transformation",
             description: "Your Bakugan's G-Power becomes equal to that of the strongest undefeated Bakugan you have in your hand.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "SAC",
