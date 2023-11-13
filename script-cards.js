@@ -530,7 +530,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",            
             title: "Face of Grief",
             description: "Immediately nullify the opponent's last ability card.",
-            price: "??? HSP"
+            price: "2500 HSP"
         },
 	    {
             type: "SAC",
@@ -558,7 +558,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/AlphaBlaster.png",            
             title: "Alpha Blaster",
             description: "Leonidas gains +200 G's",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
         {
             type: "SAC",
@@ -581,7 +581,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/DoubleDimension.png", //Wrong image
             title: "Double Dimension",
             description: "Nullifies the opponent's last ability.",
-            price: "??? HSP"
+            price: "1500 HSP"
         },
 	    {
             type: "SAC",
@@ -683,7 +683,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Feather Storm",
             description: "Harpus gains +100 G's.",
-            price: "??? HSP"
+            price: "2500 HSP"
         },
         {
             type: "SAC",
@@ -1295,7 +1295,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Tornado Pandemonium",
             attribute: "Ventus",
             description: "If your Ventus Ravenoid is currently battling, an opponenent's Bakugan loses -100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 	    {
             type: "SAC",
