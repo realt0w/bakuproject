@@ -360,7 +360,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Forcing Wave",
             description: "Sirenoid gains +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },  
 	{
             type: "SAC",
@@ -697,7 +697,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Slash Zero",            
             description: "Fear Ripper gains +80 G's for the rest of the battle.",
-            price: "??? HSP"
+            price: "1750 HSP"
         },
 	    {
             type: "SAC",
@@ -780,7 +780,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Blue Stealth",            
             description: "Preyas gains +50 G's and nullifies the gate card he's standing on.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 	    {
             type: "SAC",
@@ -795,7 +795,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Cut In Slayer",     
 	    description: "All Bakugan on the user's side are defeated except for one, and their G's are added to the remaining Bakugan.",
-            price: "??? HSP"
+            price: "4500 HSP"
         },
 	    {
             type: "SAC",
