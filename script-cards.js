@@ -742,7 +742,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Rapid Haos",
             attribute: "haos",
             description: "Add an additional Haos Bakugan into battle. If the Bakugan is a teammate's, it can be any attribute.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "NAC",
@@ -766,7 +766,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Shade Ability",
             attribute: "haos",
             description: "Nullify all ability card effects and power level changes on an opponent's Bakugan",
-            price: "??? HSP"
+            price: "2500 HSP"
         },
         {
             type: "SAC",
