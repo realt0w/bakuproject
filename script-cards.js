@@ -864,7 +864,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Solar Ray",
             attribute: "haos",
             description: "Your Haos Tentaclear gains +100 G's in battle.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
         {
             type: "SAC",
@@ -872,7 +872,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Lightning Tornado",
             attribute: "haos",
             description: "Transfer 100 G's from an opponent to your Haos Bakugan.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 	    {
             type: "NAC",
