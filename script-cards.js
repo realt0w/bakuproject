@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const popupText = document.getElementById("popup-text");
     const closePopup = document.getElementById("close-popup");
     const cardType = document.getElementById("card-type");
-    const cardAttribute = document.getElementById("card-attribute");
+    const cardAttribute = document.getElementById("card-attribute");	
     const cardsAttribute = document.getElementById("cards-attribute");//Selected one
 	
 
@@ -23,7 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/BeeStrikerGateCards.png",
             title: "Bee Striker",
             description: "Bee Striker's power level is doubled.",
-            price: "??? HSP"
+            price: "2000 HSP"		    
+        },
+	    {
+            type: "CHGC",
+            image: "./images/cards/SirenoidGateCards.png",
+            title: "Sirenoid",
+            description: "Sirenoid's power level is doubled.",
+            price: "??? HSP"		    
         },
         {
             type: "NGC",
@@ -175,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "pyrus",
             title: "Pyrus - 100",
             description: "Pyrus bakugan present on the gate card gain +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 		{
             type: "NGC",
@@ -183,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "ventus",
             title: "Ventus - 100",
             description: "Ventus bakugan present on the gate card gain +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 		{
             type: "NGC",
@@ -191,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Darkus - 100",
             description: "Darkus bakugan present on the gate card gain +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 		{
             type: "NGC",
@@ -199,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Aquos - 100",
             description: "Aquos bakugan present on the gate card gain +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 		{
             type: "NGC",
@@ -207,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Subterra - 100",
             description: "Subterra bakugan present on the gate card gain +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 		{
             type: "NGC",
@@ -215,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "haos",
             title: "Haos - 100",
             description: "Haos bakugan present on the gate card gain +100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
         {
             type: "NGC",
@@ -223,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "pyrus",
             title: "Pyrus - 150",
             description: "Pyrus bakugan present on the gate card gain +150 G's.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 		{
             type: "NGC",
@@ -231,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "ventus",
             title: "Ventus - 150",
             description: "Ventus bakugan present on the gate card gain +150 G's.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 		{
             type: "NGC",
@@ -239,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Darkus - 150",
             description: "Darkus bakugan present on the gate card gain +150 G's.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 		{
             type: "NGC",
@@ -247,7 +254,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Aquos - 150",
             description: "Aquos bakugan present on the gate card gain +150 G's.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 		{
             type: "NGC",
@@ -255,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Subterra - 150",
             description: "Subterra bakugan present on the gate card gain +150 G's.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 		{
             type: "NGC",
@@ -263,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "haos",
             title: "Haos - 150",
             description: "Haos bakugan present on the gate card gain +150 G's.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
         {
             type: "NGC",
@@ -271,7 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "pyrus",
             title: "Pyrus - 200",
             description: "Pyrus bakugan present on the gate card gain +200 G's.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 		{
             type: "NGC",
@@ -279,7 +286,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "ventus",
             title: "Ventus - 200",
             description: "Ventus bakugan present on the gate card gain +200 G's.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 		{
             type: "NGC",
@@ -287,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Darkus - 200",
             description: "Darkus bakugan present on the gate card gain +200 G's.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 		{
             type: "NGC",
@@ -295,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Aquos - 200",
             description: "Aquos bakugan present on the gate card gain +200 G's.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 		{
             type: "NGC",
@@ -303,7 +310,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Subterra - 200",
             description: "Subterra bakugan present on the gate card gain +200 G's.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 		{
             type: "NGC",
@@ -311,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "haos",
             title: "Haos - 200",
             description: "Haos bakugan present on the gate card gain +200 G's.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
         {
             type: "CGC",
@@ -347,6 +354,13 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Leap Sting",
             description: "An opponent's Bakugan loses 50 G's and Laserman can attack it from anywhere.",
             price: "??? HSP"
+        }, 
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Forcing Wave",
+            description: "Sirenoid gains +100 G's.",
+            price: "2000 HSP"
         },  
 	{
             type: "SAC",
@@ -391,6 +405,14 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "An opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            attribute: "ventus",
+            title: "Backdraft",
+            description: "Return a Bakugan to it's owner.",
+            price: "??? HSP"
+        },
         {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
@@ -413,19 +435,26 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
             price: "??? HSP"
         },
+	    {
+            type: "CGC",
+            image: "./images/cards/CheeringBattle.png",
+            title: "Joker's Wild",
+            description: "If the gate card contains both Darkus and Pyrus Bakugan, all non-Darkus Bakugan are immediately defeated.",
+            price: "5000 HSP"
+        },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Reinforcement",
             description: "Your Bakugan's Power Level increasesby 100 G's for each other Bakugan on your side of the field with the same attribute.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },	
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Peacemaker",
             description: "All Bakugan on the gate card are returned to their owner's hands.",
-            price: "??? HSP"
+            price: "2250 HSP"
         },
         {
             type: "CGC",
@@ -446,7 +475,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SiegeGateCards.png",
             title: "Siege",
             description: "Siege's power level is doubled.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
         {
             type: "NAC",
@@ -505,10 +534,16 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 	{
             type: "SAC",
-            image: "./images/cards/SpecialAbilityCards.png",
-            
+            image: "./images/cards/SpecialAbilityCards.png",            
             title: "Face of Grief",
             description: "Immediately nullify the opponent's last ability card.",
+            price: "2500 HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",            
+            title: "Face of Rage",
+            description: "Fourtress gains +100 G's, and your opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
         {
@@ -523,14 +558,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Double Battle",
             description: "Both players add an additional Bakugan to the battle.",
-            price: "??? HSP"
+            price: "4000 HSP"
         },
         {
             type: "SAC",
             image: "./images/cards/AlphaBlaster.png",            
             title: "Alpha Blaster",
             description: "Leonidas gains +200 G's",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
         {
             type: "SAC",
@@ -553,7 +588,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/DoubleDimension.png", //Wrong image
             title: "Double Dimension",
             description: "Nullifies the opponent's last ability.",
-            price: "??? HSP"
+            price: "1500 HSP"
         },
 	    {
             type: "SAC",
@@ -655,14 +690,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Feather Storm",
             description: "Harpus gains +100 G's.",
-            price: "??? HSP"
+            price: "2500 HSP"
         },
         {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Slash Zero",            
             description: "Fear Ripper gains +80 G's for the rest of the battle.",
-            price: "??? HSP"
+            price: "1750 HSP"
         },
 	    {
             type: "SAC",
@@ -714,7 +749,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Rapid Haos",
             attribute: "haos",
             description: "Add an additional Haos Bakugan into battle. If the Bakugan is a teammate's, it can be any attribute.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "NAC",
@@ -722,7 +757,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Haos Triple Chain - Haos Stasis",
             attribute: "haos",
             description: "If there are three Haos Bakugan on the field, your Haos Bakugan gains +100 G's and you draw 2 cards. Any teammates draw a card each.",
-            price: "??? HSP"
+            price: "4000 HSP"
         },
         {
             type: "NAC",
@@ -738,14 +773,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Shade Ability",
             attribute: "haos",
             description: "Nullify all ability card effects and power level changes on an opponent's Bakugan",
-            price: "??? HSP"
+            price: "2500 HSP"
         },
         {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Blue Stealth",            
             description: "Preyas gains +50 G's and nullifies the gate card he's standing on.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 	    {
             type: "SAC",
@@ -760,7 +795,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Cut In Slayer",     
 	    description: "All Bakugan on the user's side are defeated except for one, and their G's are added to the remaining Bakugan.",
-            price: "??? HSP"
+            price: "4500 HSP"
         },
 	    {
             type: "SAC",
@@ -790,14 +825,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Pure Light",     
 	    attribute: "haos",
             description: "Revive a defeated Bakugan and give it to an ally with less than three Bakugan in their deck.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Aqua Merge",
             description: "All non-Subterra Bakugan on the field have their attribute changed to Aquos.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
             {
             type: "CGC",
@@ -835,8 +870,8 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Solar Ray",
             attribute: "haos",
-            description: "Your Haos Bakugan gains +100 G's.",
-            price: "??? HSP"
+            description: "Your Haos Tentaclear gains +100 G's in battle.",
+            price: "3500 HSP"
         },
         {
             type: "SAC",
@@ -844,7 +879,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Lightning Tornado",
             attribute: "haos",
             description: "Transfer 100 G's from an opponent to your Haos Bakugan.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 	    {
             type: "NAC",
@@ -860,7 +895,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Venomous Beast Torrent Attack",
             attribute: "haos",
             description: "Your Haos Bakugan is defeated and replaced with another of your currently defeated Haos Bakugan.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	{
             type: "NAC",
@@ -946,15 +981,15 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Ability Counter",   
 	    attribute: "Haos",    
             description: "Nullify an opponent's ability card.",
-            price: "??? HSP"
+            price: "1750 HSP"
         },
 	     {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
             title: "Haos Freeze",   
 	    attribute: "Haos",    
-            description: "Immediately add a Haos Bakugan from your deck into battle.",
-            price: "??? HSP"
+            description: "Immediately add an additional Haos Bakugan into battle. If the Bakugan is a teammate's, it can be any attribute.",
+            price: "4000 HSP"
         },
         {
             type: "CGC",
@@ -996,7 +1031,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/FalconeerGateCards.png",
             title: "Falconeer",
             description: "Falconeer's power level is doubled.",
-            price: "??? HSP"
+            price: "1750 HSP"
         },
 	    {
             type: "CHGC",
@@ -1024,14 +1059,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/LeonidasGateCards.png",
             title: "Leonidas",
             description: "Leonidas's power level is doubled.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/WariusGateCards.png",
             title: "Warius",
             description: "Warius's power level is doubled.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "CHGC",
@@ -1094,14 +1129,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/DragonoidGateCards.png",
             title: "Dragonoid",
             description: "Dragonoid's power level is doubled.",
-            price: "??? HSP"
+            price: "5000 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/TigrerraGateCards.png",
             title: "Tigrerra",
             description: "Tigrerra's power level is doubled.",
-            price: "??? HSP"
+            price: "3750 HSP"
         },
 	{
             type: "CGC",
@@ -1213,7 +1248,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Wall Lock",
             description: "All power level changes for Bakugan on this gate card are nullified.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "CGC",
@@ -1227,7 +1262,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Transformation",
             description: "Your Bakugan's G-Power becomes equal to that of the strongest undefeated Bakugan you have in your hand.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
 	    {
             type: "SAC",
@@ -1235,6 +1270,22 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Flare Blinder",
             attribute: "Haos",
             description: "If you control a Haos Tentaclear in battle, the opponenent cannot activate any ability or gate cards while the battle is ongoing.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Crystal Fang",
+            attribute: "Haos",
+            description: "Tigrerra gains +80 G's.",
+            price: "??? HSP"
+        },
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Shadow Scratch",
+            attribute: "Darkus",
+            description: "Nullify the attribute gate card your Ravenoid is standing on, and an opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
 	    {
@@ -1251,7 +1302,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Tornado Pandemonium",
             attribute: "Ventus",
             description: "If your Ventus Ravenoid is currently battling, an opponenent's Bakugan loses -100 G's.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 	    {
             type: "SAC",
@@ -1302,6 +1353,7 @@ function createCard(cardInfo) {
     card.classList.add("card");
     card.setAttribute("data-type", cardInfo.type);
     card.setAttribute("data-attribute", cardInfo.attribute);
+    card.setAttribute("data-limit", cardInfo.limit);
 
     const cardImage = document.createElement("img");
     cardImage.src = cardInfo.image;
