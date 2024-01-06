@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/GateBuilding.png",
 	    title: "Gate Building",
 	    attribute: "subterra",
-            description: "Set a Gate Card down during battle.",
+            description: "Draw a Gate Card from your Deck, then set a Gate Card on the field.",
             price: "1.750 HSP"
         },
         {
@@ -543,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",            
             title: "Face of Rage",
-            description: "Fourtress gains +100 G's, and your opponent's Bakugan loses -50 G's.",
+            description: "Fourtress gains +50 G's, and your opponent's Bakugan loses -50 G's.",
             price: "??? HSP"
         },
         {
@@ -886,7 +886,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Power Charge",
             attribute: "pyrus",
-            description: "Pyrus Saurus/Tigrerra gains +100 G's, and can move to an opponent's gate card.",
+            description: "Your Pyrus Bakugan gains +100 G's, and can move to an opponent's gate card.",
             price: "??? HSP"
         },
 	    {
@@ -902,7 +902,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Oregano Revenge",
             attribute: "darkus",
-            description: "Your Darkus Bakugan gains +100 G's and each of your opponent's Bakugan in battle against it lose -100 G's.",
+            description: "Each of your opponent’s Bakugan in battle loses -100 G’s, and up to the same number of yours in battle gains +100 G’s",
             price: "??? HSP"
         },
 	    {
@@ -942,7 +942,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Frame Fire",
             attribute: "pyrus",
-            description: "Nullify an opponent's ability and have their Bakugan lose -50 G's instead.",
+            description: "Pyrus Falconeer gains +100 G's.",
             price: "2.250 HSP"
         },
 	    {
@@ -980,7 +980,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Ability Counter",   
 	    attribute: "Haos",    
-            description: "Nullify an opponent's ability card.",
+            description: "Nullify an opponent's ability card in battle, or that targets your Haos Bakugan.",
             price: "1750 HSP"
         },
 	     {
@@ -1337,11 +1337,78 @@ document.addEventListener("DOMContentLoaded", function () {
 	     {
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
-            title: "Ventus Triple Chain - Winds of Fury",            
+            title: "Ventus Triple Chain - Winds of Fury",         
+	    attribute: "ventus",
             description: "If you control three Ventus Bakugan on the field, each of your opponent's Bakugan loses -100 G's, then one of your Ventus Bakugan can attack each of them.",
             price: "3500 HSP"
         },
-	
+	     {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Holograph Divide",
+	    attribute: "aquos",
+            description: "Your Aquos Bakugan gains +50 G's at the start of each of your turns.",
+            price: "??? HSP"
+	},
+	     {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Depth Tornado",            
+            description: "Juggernoid gains +100 G's.",
+            price: "??? HSP"	
+	},
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Stare Down",            
+            description: "All opponent’s Bakugan adjacent to Cycloid lose -50Gs.",
+            price: "??? HSP"	
+	},
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Right Giganti",            
+            description: "Cycloid gains +100 G's.",
+            price: "??? HSP"	
+	},
+	    {
+            type: "SAC",
+            image: "./images/cards/SpecialAbilityCards.png",
+            title: "Face of Joy",            
+            description: "Immediately nullify the Gate Card Fourtress is standing on.",
+            price: "??? HSP"	
+	},
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Dark Eye Superior",   
+	    attribute: "darkus",    
+            description: "Nullify an opponent's ability card in battle, or that targets your Darkus Bakugan.",
+            price: "??? HSP"
+	},
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Enhancement",      
+            description: "An allied Bakugan gains +50 G’s.",
+            price: "??? HSP"
+        },
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Terra Crunch",   
+	    attribute: "subterra",    
+            description: "Your Subterra Bakugan gains +20 G’s for each Gate Card on the field (+15 in team battles).",
+            price: "??? HSP"
+	},
+	    {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Destroy Force Down",   
+	    attribute: "darkus",    
+            description: "Every Bakugan on the field unowned by you loses -25 G’s (-15 in team battles).",
+            price: "??? HSP"
+	},
         // Add more card data as needed
     ];
     
