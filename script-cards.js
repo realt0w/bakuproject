@@ -339,7 +339,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Negative Delta",
             description: "If the opponent's Bakugan is Darkus, Subterra or Ventus, it loses -200 G's. Otherwise the user's Bakugan loses -200 G's.",
-            price: "??? HSP"
+            price: "2,750 HSP"
         },
 	    {
             type: "CGC",
@@ -367,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Green Nobility - Violent Wind",
             description: "Skyress gains +100 G's",
-            price: "??? HSP"
+            price: "2000 HSP"
         },     
          {
             type: "SAC",
@@ -381,7 +381,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/ReaperGateCards.png",
             title: "Reaper",
             description: "Reaper's power level is doubled.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
         {
             type: "SAC",
@@ -468,7 +468,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Trade-Off",
             description: "Either side with a combined power level of over 400 G's is defeated.",
-            price: "??? HSP"
+            price: "3000 HSP"
         },
         {
             type: "CHGC",
@@ -788,7 +788,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Aqua Javelin",     
 	    attribute: "aquos",
             description: "Swap the gate card Aquos Siege is currently on with another adjacent card.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 	    {
             type: "SAC",
@@ -1017,7 +1017,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Switchback",
             description: "All Bakugan on the gate card are changed to their original attributes.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
         {
             type: "CGC",
@@ -1087,7 +1087,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SerpenoidGateCards.png",
             title: "Serpenoid",
             description: "Serpenoid's power level is doubled.",
-            price: "??? HSP"
+            price: "1500 HSP"
         },
         {
             type: "CHGC",
@@ -1108,7 +1108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/RavenoidGateCards.png",
             title: "Ravenoid",
             description: "Ravenoid's power level is doubled.",
-            price: "??? HSP"
+            price: "2000 HSP"
         },
 	    {
             type: "CHGC",
@@ -1122,7 +1122,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/TentaclearGateCards.png",
             title: "Tentaclear",
             description: "Tentaclear's power level is doubled.",
-            price: "??? HSP"
+            price: "4250 HSP"
         },
 	    {
             type: "CHGC",
@@ -1157,7 +1157,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Aquos Hazard",
             description: "All Bakugan on the gate card are changed to Aquos.",
-            price: "??? HSP"
+            price: "2500 HSP"
         },
 	{
             type: "CGC",
@@ -1206,7 +1206,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Fair Hands",
             description: "A random gate card from both player's used pile are placed back on the field, open. Command cards lose their effects.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 	    {
             type: "CGC",
@@ -1241,7 +1241,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Magma Fuse",
             description: "After the battle is over, all gate cards on the field are destroyed and all Bakugan are returned to their owners.",
-            price: "??? HSP"
+            price: "3500 HSP"
         },
 	    {
             type: "CGC",
@@ -1278,7 +1278,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Crystal Fang",
             attribute: "Haos",
             description: "Tigrerra gains +80 G's.",
-            price: "??? HSP"
+            price: "1750 HSP"
         },
 	    {
             type: "SAC",
