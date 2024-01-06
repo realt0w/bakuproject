@@ -313,6 +313,57 @@ footer {
   background-color: #bb2a2a;
 }
 
+.filter-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+
+.filter-box {
+    background-color: #25262b;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: 0.0625rem solid #373A40;
+}
+
+.filter-box:hover {
+    transform: scale(1.05);
+}
+
+button {
+background-color: inherit;
+padding: 0;
+border: none;
+appearance: none;
+}
+
+.filter-box img {
+    max-width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Optional: Add additional CSS for the text under the images */
+.filter-box p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Clear styling for anchor tags inside boxes */
+.filter-box a {
+    text-decoration: none;
+    color: inherit;
+}
 /* Mobile responsive styles */
 @media (max-width: 768px) {
     header {
@@ -350,6 +401,7 @@ footer {
         margin: 10px 0;
     }
 }
+
 
 @media screen and (min-width: 769px) {
     .article-card {
