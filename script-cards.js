@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SirenoidGateCards.png",
             title: "Sirenoid",
             description: "Sirenoid's power level is doubled.",
-            price: "??? HSP"		    
+            price: "4,500 HSP"		    
         },
         {
             type: "NGC",
@@ -325,14 +325,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Battle Sham",
             description: "If there only are two bakugan from the same team present, one of them attcks a random adjacent enemy bakugan.",
-            price: "??? HSP"
+            price: "2,000 HSP"
         },
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Positive Delta",
             description: "If the opponent's Bakugan is Pyrus, Aquos or Haos, it loses -200 G's. Otherwise the user's Bakugan loses -200 G's.",
-            price: "??? HSP"
+            price: "2,750 HSP"
         },
 	    {
             type: "CGC",
@@ -345,15 +345,15 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Final Judgement",
-            description: "All non-Haos Bakugan on the gate card have their power levels reduced to 0.",
-            price: "??? HSP"
+            description: "All non-Haos Bakugan on the gate card have their power levels reduced to 0. (CURRENTLY NOT FUNCTIONAL)",
+            price: "3,500 HSP"
         },
         {
-            type: "SAC",
+            type: "SAC", 
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Leap Sting",
             description: "An opponent's Bakugan loses 50 G's, and Laserman can attack it from anywhere on the field. If it was defeated, Laserman is returned to your hand.",
-            price: "??? HSP"
+            price: "2,750 HSP"
         }, 
 	    {
             type: "SAC",
@@ -367,35 +367,35 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Green Nobility - Violent Wind",
             description: "Skyress gains +100 G's",
-            price: "2000 HSP"
+            price: "2,000 HSP"
         },     
          {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Dimension Four",            
             description: "Nullify the attribute gate card Reaper is standing on.",
-            price: "??? HSP"
+            price: "1,500 HSP"
         }, //Putting a non attributed version as it seems all attributes may be able to use? seen Haos, Ventus and Darkus
         {
             type: "CHGC",
             image: "./images/cards/ReaperGateCards.png",
             title: "Reaper",
             description: "Reaper's power level is doubled.",
-            price: "3500 HSP"
+            price: "3,500 HSP"
         },
         {
             type: "SAC",
             image: "./images/cards/Anthemusa.png",
             title: "Anthemusa",
             description: "All weaker adjacent Bakugan are moved to Sirenoid's gate card and immediately defeated.",
-            price: "??? HSP"
+            price: "6,000 HSP"
         },
 	{
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Dark Sphere Impact",
             description: "An opponent's Bakugan loses -200 G's.",
-            price: "??? HSP"
+            price: "3,500 HSP"
         },
         {
             type: "NAC",
@@ -433,7 +433,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CheeringBattle.png",
             title: "Cheering Battle",
             description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
-            price: "??? HSP"
+            price: "1,750 HSP"
         },
 	    {
             type: "CGC",
@@ -461,14 +461,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Additional Task",
             description: "The last Bakugan thrown on the gate card is returned to it's owner and is replaced by another Bakugan from their hand.",
-            price: "??? HSP"
+            price: "2,250 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Trade-Off",
             description: "Either side with a combined power level of over 400 G's is defeated.",
-            price: "3000 HSP"
+            price: "3,000 HSP"
         },
         {
             type: "CHGC",
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "Haos",
             title: "Correlation - Haos & Darkus",
             description: "If there is a Darkus Bakugan on the field, your Haos Bakugan gains +100 G's. If the other Bakugan was an ally, both Bakugan gain +50 G's instead.",
-            price: "??? HSP"
+            price: "1,250 HSP"
         },
         {
             type: "NAC",
@@ -523,15 +523,14 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "subterra",
             title: "Earth Power",
             description: "Increase your Subterra Bakugan's power level by +50 G's.",
-            price: "??? HSP"
+            price: "750 HSP"
         },
         {
             type: "SAC",
             image: "./images/cards/Anthemusa.png",
-            attribute: "subterra",
             title: "Mega Impact",
             description: "Gorem gains +50 G's, and an opponent's Bakugan loses -100 G's.",
-            price: "??? HSP"
+            price: "4,250 HSP"
         },
 	{
             type: "SAC",
@@ -545,14 +544,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",            
             title: "Face of Rage",
             description: "Fourtress gains +50 G's, and your opponent's Bakugan loses -50 G's.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
         {
             type: "CGC",
             image: "./images/cards/QuartetBattle.png",
             title: "Quartet Battle",
             description: "Both sides add Bakugan to the gate card until at least 4 are present.",
-            price: "??? HSP"
+            price: "4,000 HSP"
         },
          {
             type: "CGC",
@@ -598,14 +597,6 @@ document.addEventListener("DOMContentLoaded", function () {
             description: "Nullify an opponent's ability card in battle, or that targets Tentaclear.",
             price: "2,000 HSP"
         },//Double Dimension does not seem attributed in game, usuable by multiple       
-        {
-            type: "NAC",
-            image: "./images/cards/CorrelationDarkusPyrus.png",
-            attribute: "darkus",
-            title: "Correlation - Darkus & Pyrus",
-            description: "If your opponent has a Pyrus Bakugan on the field, your Darkus Bakugan gains +100 G's.",
-            price: "??? HSP"
-        },
 	{
             type: "NAC",
             image: "./images/cards/NormalAbilityCards.png",
@@ -620,7 +611,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Correlation - Aquos & Ventus",
             description: "If your opponent has a Ventus Bakugan on the field, your Aquos Bakugan gains +100 G's.",
-            price: "??? HSP"
+            price: "1,250 HSP"
         },
         {
             type: "NAC",
@@ -628,7 +619,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Correlation - Darkus & Aquos",
             description: "If your opponent has a Aquos Bakugan on the field, your Darkus Bakugan gains +100 G's.",
-            price: "??? HSP"
+            price: "1,500 HSP"
         },
          {
             type: "NAC",
@@ -644,7 +635,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "darkus",
             title: "Grand Down",
             description: "Nullify the gate card your Darkus Bakugan is battling on.",
-            price: "??? HSP"
+            price: "1,750 HSP"
         },
         {
             type: "NAC",
@@ -660,7 +651,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Dive Mirage",
             description: "Move your Aquos Bakugan to an adjacent gate card, nullifying it.",
-            price: "??? HSP"
+            price: "2,000 HSP"
         },
 	    {
             type: "NAC",
@@ -668,7 +659,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "aquos",
             title: "Water Refrain",
             description: "All previous abilities used this chain are nullified.",
-            price: "??? HSP"
+            price: "3,500 HSP"
         },
         {
             type: "NAC",
@@ -676,7 +667,7 @@ document.addEventListener("DOMContentLoaded", function () {
             attribute: "Haos",
             title: "Lightning Shield",
             description: "The gate card your Haos Bakugan is standing on is nullified.",
-            price: "??? HSP"
+            price: "1,750 HSP"
         },
         {
             type: "SAC",
@@ -684,7 +675,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Fire Sword",
             attribute: "pyrus",
             description: "Pyrus Siege gains +100 G's.",
-            price: "??? HSP"
+            price: "2,000 HSP"
         },
 	    {
             type: "SAC",
@@ -705,14 +696,14 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Saurus Glow",            
             description: "Saurus gains +50 G's for the rest of the battle.",
-            price: "??? HSP"
+            price: "1,250 HSP"
         },
 	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Dual Gazer",            
             description: "If Dual Hydranoid is your last remaining Bakugan,it gains +50 G's and attacks two Bakugan on the field.",
-            price: "??? HSP"
+            price: "4,000 HSP"
         },
         {
             type: "NAC",
@@ -726,8 +717,8 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/NormalAbilityCards.png",
             title: "Tsunami Wave",
 	    attribute: "aquos",
-            description: "If you control Aquos Siege and two other Aquos Bakugan, all Bakugan on the field besides Aquos Siege are defeated.",
-            price: "??? HSP"
+            description: "If you control Aquos Siege and two other Aquos Bakugan, all Bakugan on the field besides Aquos Siege are defeated. (CURRENTLY NOT FUNCTIONAL)",
+            price: "4,000 HSP"
         },
         {
             type: "NAC",
@@ -742,7 +733,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Rapid Fire",
             attribute: "pyrus",
             description: "Add an additional Pyrus Bakugan into battle. If the Bakugan is a teammate's, it can be any attribute.",
-            price: "??? HSP"
+            price: "3,000 HSP"
         },
         {
             type: "NAC",
@@ -766,7 +757,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Water Slap",
             attribute: "aquos",
             description: "Your opponent's Bakugan loses -50 G's.",
-            price: "??? HSP"
+            price: "750 HSP"
         },
          {
             type: "NAC",
@@ -810,7 +801,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Cut In Saber",     
 	    description: "Allows Tigrerra to enter the current battle.",
-            price: "??? HSP"
+            price: "3,500 HSP"
         },
 	    {
             type: "NAC",
@@ -840,15 +831,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Grand Spirit",
             description: "Your Bakugan gains +50 G's for each gate card on the field.",
-            price: "??? HSP"
-        },
-        {
-            type: "NAC",
-            image: "./images/cards/NormalAbilityCards.png",
-            title: "Earth Power",
-            attribute: "subterra",
-            description: "Increase your Subterra Bakugan's power level by +50 G's.",
-            price: "??? HSP"
+            price: "3,500 HSP"
         },
         {
             type: "NAC",
@@ -856,7 +839,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Blow Away",
             attribute: "ventus",
             description: "Move an opponent's Bakugan to another gate card.",
-            price: "??? HSP"
+            price: "2,000 HSP"
         },
         {
             type: "NAC",
@@ -912,7 +895,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Spirit Canyon",
             attribute: "subterra",
             description: "Copy any power level gains from an opponent's gate card to your Bakugan",
-            price: "??? HSP"
+            price: "3,000 HSP"
         },
 	    {
             type: "NAC",
@@ -928,7 +911,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Doom Companion",
             attribute: "darkus",
             description: "All Bakugan on your Darkus Bakugan's gate card are removed from play for the rest of the game.",
-            price: "??? HSP"
+            price: "3,250 HSP"
         },
         {
             type: "NAC",
@@ -966,7 +949,7 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Air Battle",   
 	    attribute: "ventus",    
             description: "Move your Ventus Bakugan to another gate card and prevent it from opening.",
-            price: "??? HSP"
+            price: "1,750 HSP"
         },
 	    {
             type: "NAC",
@@ -997,35 +980,28 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Level Down",
             description: "Any Bakugan on the gate card with a power level of 400 G's or higher loses -100 G's.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Warp Gate",
             description: "All Bakugan on this gate card are moved to another.",
-            price: "??? HSP"
+            price: "3,000 HSP"
         },
 	   {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Revive",
             description: "The winning player revives a defeated Bakugan",
-            price: "??? HSP"
+            price: "3,000 HSP"
         }, 
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Switchback",
             description: "All Bakugan on the gate card are changed to their original attributes.",
-            price: "2000 HSP"
-        },
-        {
-            type: "CGC",
-            image: "./images/cards/CommandGateCards.png",
-            title: "Level Down",
-            description: "Any Bakugan on the gate card with a power level of 400 G's or higher loses -100 G's.",
-            price: "??? HSP"
+            price: "2,000 HSP"
         },
         {
             type: "CHGC",
@@ -1039,21 +1015,21 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/HarpusGateCards.png",
             title: "Harpus",
             description: "Harpus's power level is doubled.",
-            price: "??? HSP"
+            price: "1,750 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/SkyressGateCards.png",
             title: "Skyress",
             description: "Skyress's power level is doubled.",
-            price: "??? HSP"
+            price: "4,500 HSP"
         },	
         {
             type: "CHGC",
             image: "./images/cards/LasermanGateCards.png",
             title: "Laserman",
             description: "Laserman's power level is doubled.",
-            price: "??? HSP"
+            price: "3,250 HSP"
         },
 	    {
             type: "CHGC",
@@ -1074,56 +1050,56 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/PreyasGateCards.png",
             title: "Preyas",
             description: "Preyas's power level is doubled.",
-            price: "??? HSP"
+            price: "4,000 HSP"
         },
         {
             type: "CHGC",
             image: "./images/cards/MonarusGateCards.png",
             title: "Monarus",
             description: "Monarus's power level is doubled.",
-            price: "??? HSP"
+            price: "2,750 HSP"
         },
         {
             type: "CHGC",
             image: "./images/cards/SerpenoidGateCards.png",
             title: "Serpenoid",
             description: "Serpenoid's power level is doubled.",
-            price: "1500 HSP"
+            price: "1,500 HSP"
         },
         {
             type: "CHGC",
             image: "./images/cards/FearRipperGateCards.png",
             title: "Fear Ripper",
             description: "Fear Ripper's power level is doubled.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },     
         {
             type: "CHGC",
             image: "./images/cards/RobotallionGateCards.png",
             title: "Robotallion",
             description: "Robotallion's power level is doubled.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
         {
             type: "CHGC",
             image: "./images/cards/RavenoidGateCards.png",
             title: "Ravenoid",
             description: "Ravenoid's power level is doubled.",
-            price: "2000 HSP"
+            price: "2,000 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/DualHydranoidGateCards.png",
             title: "Dual Hydranoid",
             description: "Dual Hydranoid's power level is doubled.",
-            price: "??? HSP"
+            price: "6,000 HSP"
         },
 	    {
             type: "CHGC",
             image: "./images/cards/TentaclearGateCards.png",
             title: "Tentaclear",
             description: "Tentaclear's power level is doubled.",
-            price: "4250 HSP"
+            price: "4,250 HSP"
         },
 	    {
             type: "CHGC",
@@ -1144,105 +1120,105 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Energy Merge",
             description: "100 G's are transferred from the last Bakugan to stand on the gate card to the first.",
-            price: "??? HSP"
+            price: "2,750 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Hyper Merge",
             description: "Transfer 100 G's from an opponent's Bakugan to each of yours currently in battle.",
-            price: "??? HSP"
+            price: "7,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Aquos Hazard",
             description: "All Bakugan on the gate card are changed to Aquos.",
-            price: "2500 HSP"
+            price: "2,500 HSP"
         },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Ventus Hazard",
             description: "All Bakugan on the gate card are changed to Ventus.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Subterra Hazard",
             description: "All Bakugan on the gate card are changed to Subterra.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
 	{
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Pyrus Hazard",
             description: "All Bakugan on the gate card are changed to Pyrus.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Darkus Hazard",
             description: "All Bakugan on the gate card are changed to Darkus.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Haos Hazard",
             description: "All Bakugan on the gate card are changed to Haos.",
-            price: "??? HSP"
+            price: "2,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Supernova",
             description: "All Bakugan present on the gate cards have their power levels swapped.",
-            price: "??? HSP"
+            price: "3,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Fair Hands",
             description: "A random gate card from both player's used pile are placed back on the field, open. Command cards lose their effects.",
-            price: "3500 HSP"
+            price: "3,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Third Judgement",
-            description: "The battle can only start when there are three Bakugan on the gate card, and only one Bakugan can win.",
-            price: "??? HSP"
+            description: "The battle can only start when there are three Bakugan on the gate card, and only one Bakugan can win. (CURRENTLY NOT FUNCTIONAL)",
+            price: "3,000 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Intercept",
-            description: "The battle is put on hold until another Bakugan is added to the gate card.",
-            price: "??? HSP"
+            description: "The battle is put on hold until another Bakugan is added to the gate card. (CURRENTLY NOT FUNCTIONAL)",
+            price: "1,750 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Mine Ghost",
             description: "All Bakugan present on the gate card are defeated.",
-            price: "??? HSP"
+            price: "3,000 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Triple Battle",
             description: "The user can add an additional Bakugan to the battle, or the battle is put on hold until there are at least three present on the gate card.",
-            price: "??? HSP"
+            price: "4,500 HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Magma Fuse",
             description: "After the battle is over, all gate cards on the field are destroyed and all Bakugan are returned to their owners.",
-            price: "3500 HSP"
+            price: "3,500 HSP"
         },
 	    {
             type: "CGC",
@@ -1256,7 +1232,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/CommandGateCards.png",
             title: "Scapegoat",
             description: "The owner of the first Bakugan to land on the gate card can decide to continue the battle or return all Bakugan present to their owner's hands.",
-            price: "??? HSP"
+            price: "3,000 HSP"
         },
 	    {
             type: "CGC",
@@ -1279,15 +1255,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Crystal Fang",
             attribute: "Haos",
             description: "Tigrerra gains +80 G's.",
-            price: "1750 HSP"
+            price: "1,750 HSP"
         },
 	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Shadow Scratch",
-            attribute: "Darkus",
             description: "Nullify the attribute gate card your Ravenoid is standing on, and an opponent's Bakugan loses -50 G's.",
-            price: "??? HSP"
+            price: "1,750 HSP"
         },
 	    {
             type: "SAC",
@@ -1318,7 +1293,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Robotallion Enforcement",            
             description: "Robotallion gains +50 G's for the rest of the battle.",
-            price: "??? HSP"
+            price: "1,500 HSP"
         },
 	    {
             type: "SAC",
@@ -1349,21 +1324,21 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Holograph Divide",
 	    attribute: "aquos",
             description: "Your Aquos Bakugan gains +50 G's at the start of each of your turns.",
-            price: "??? HSP"
+            price: "1,500 HSP"
 	},
 	     {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Depth Tornado",            
             description: "Juggernoid gains +100 G's.",
-            price: "??? HSP"	
+            price: "1,750 HSP"	
 	},
 	    {
             type: "SAC",
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Stare Down",            
             description: "All opponent’s Bakugan adjacent to Cycloid lose -50Gs.",
-            price: "??? HSP"	
+            price: "2,000 HSP"	
 	},
 	    {
             type: "SAC",
@@ -1377,7 +1352,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/SpecialAbilityCards.png",
             title: "Face of Joy",            
             description: "Immediately nullify the Gate Card Fourtress is standing on.",
-            price: "??? HSP"	
+            price: "2,500 HSP"	
 	},
 	    {
             type: "NAC",
