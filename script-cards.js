@@ -832,6 +832,14 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Grand Spirit",
             description: "Your Bakugan gains +50 G's for each gate card on the field.",
             price: "3,500 HSP"
+          },
+        {
+            type: "NAC",
+            image: "./images/cards/NormalAbilityCards.png",
+            title: "Earth Power",
+            attribute: "subterra",
+            description: "Increase your Subterra Bakugan's power level by +50 G's.",
+            price: "??? HSP"
         },
         {
             type: "NAC",
@@ -1015,7 +1023,7 @@ document.addEventListener("DOMContentLoaded", function () {
             image: "./images/cards/HarpusGateCards.png",
             title: "Harpus",
             description: "Harpus's power level is doubled.",
-            price: "1,750 HSP"
+            price: "4,000 HSP"
         },
 	    {
             type: "CHGC",
@@ -1189,7 +1197,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Third Judgement",
-            description: "The battle can only start when there are three Bakugan on the gate card, and only one Bakugan can win. (CURRENTLY NOT FUNCTIONAL)",
+            description: "The battle can only start when there are three Bakugan on the gate card, and only one Bakugan can win.",
             price: "3,000 HSP"
         },
 	    {
